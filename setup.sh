@@ -14,6 +14,6 @@
 (ok)(ok) docker network connect data-engineering-project airbyte-proxy
 (ok)(ok) docker network connect data-engineering-project airbyte-worker  
 (ok)(ok) docker network connect data-engineering-project airflow-airflow-worker-1
-(ok)(ok) docker network connect data-engineering-project airflow-airflow-webserver-1)
+(ok)(ok) docker network connect data-engineering-project airflow-airflow-webserver-1
 (ok)(ok) docker network connect data-engineering-project metabase-metabase-1
 
