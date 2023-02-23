@@ -1,0 +1,91 @@
+[2023-02-23 21:19:22,151] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: trigger_airbyte_dbt_job.airbyte_index 2023-02-22T00:00:00+00:00 [queued]>
+[2023-02-23 21:19:22,175] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: trigger_airbyte_dbt_job.airbyte_index 2023-02-22T00:00:00+00:00 [queued]>
+[2023-02-23 21:19:22,175] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-23 21:19:22,175] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2023-02-23 21:19:22,176] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-23 21:19:22,210] {taskinstance.py:1107} INFO - Executing <Task(AirbyteTriggerSyncOperator): airbyte_index> on 2023-02-22T00:00:00+00:00
+[2023-02-23 21:19:22,215] {standard_task_runner.py:52} INFO - Started process 1677 to run task
+[2023-02-23 21:19:22,219] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'trigger_airbyte_dbt_job', 'airbyte_index', '2023-02-22T00:00:00+00:00', '--job-id', '45', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag_airbyte_dbt.py', '--cfg-path', '/tmp/tmpxyy5rjdr', '--error-file', '/tmp/tmp7xquswuc']
+[2023-02-23 21:19:22,219] {standard_task_runner.py:77} INFO - Job 45: Subtask airbyte_index
+[2023-02-23 21:19:22,268] {logging_mixin.py:104} INFO - Running <TaskInstance: trigger_airbyte_dbt_job.airbyte_index 2023-02-22T00:00:00+00:00 [running]> on host 056b6eecd82f
+[2023-02-23 21:19:22,360] {taskinstance.py:1302} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=trigger_airbyte_dbt_job
+AIRFLOW_CTX_TASK_ID=airbyte_index
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-22T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-22T00:00:00+00:00
+[2023-02-23 21:19:22,387] {base.py:78} INFO - Using connection to: id: airbyte_example. Host: airbyte-proxy, Port: 8000, Schema: , Login: None, Password: None, extra: {}
+[2023-02-23 21:19:22,414] {http.py:140} INFO - Sending 'POST' to url: http://airbyte-proxy:8000/api/v1/connections/sync
+[2023-02-23 21:19:22,444] {http.py:202} WARNING - HTTPConnectionPool(host='airbyte-proxy', port=8000): Max retries exceeded with url: /api/v1/connections/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd92b0f62b0>: Failed to establish a new connection: [Errno -2] Name or service not known',)) Tenacity will retry to execute the operation
+[2023-02-23 21:19:22,446] {taskinstance.py:1501} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.6/http/client.py", line 1291, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.6/http/client.py", line 1337, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.6/http/client.py", line 1286, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.6/http/client.py", line 1046, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.6/http/client.py", line 984, in send
+    self.connect()
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fd92b0f62b0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='airbyte-proxy', port=8000): Max retries exceeded with url: /api/v1/connections/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd92b0f62b0>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1157, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1331, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1361, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/airbyte/operators/airbyte.py", line 71, in execute
+    job_object = hook.submit_sync_connection(connection_id=self.connection_id)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/airbyte/hooks/airbyte.py", line 95, in submit_sync_connection
+    headers={"accept": "application/json"},
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/http/hooks/http.py", line 141, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/http/hooks/http.py", line 203, in run_and_check
+    raise ex
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/http/hooks/http.py", line 195, in run_and_check
+    response = session.send(prepped_request, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='airbyte-proxy', port=8000): Max retries exceeded with url: /api/v1/connections/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd92b0f62b0>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+[2023-02-23 21:19:22,456] {taskinstance.py:1551} INFO - Marking task as FAILED. dag_id=trigger_airbyte_dbt_job, task_id=airbyte_index, execution_date=20230222T000000, start_date=20230223T211922, end_date=20230223T211922
+[2023-02-23 21:19:22,521] {local_task_job.py:151} INFO - Task exited with return code 1
