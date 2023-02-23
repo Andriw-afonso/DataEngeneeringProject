@@ -726,3 +726,1039 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'airflow.providers.airbyte'
 [2023-02-23 17:10:40,886] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
 [2023-02-23 17:10:40,986] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.109 seconds
+[2023-02-23 17:11:11,250] {scheduler_job.py:182} INFO - Started process (PID=2765) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:11:11,251] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:11:11,251] {logging_mixin.py:104} INFO - [2023-02-23 17:11:11,251] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:11:11,253] {logging_mixin.py:104} INFO - [2023-02-23 17:11:11,253] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:11:11,254] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:11:11,272] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.024 seconds
+[2023-02-23 17:11:41,673] {scheduler_job.py:182} INFO - Started process (PID=2817) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:11:41,674] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:11:41,674] {logging_mixin.py:104} INFO - [2023-02-23 17:11:41,674] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:11:41,677] {logging_mixin.py:104} INFO - [2023-02-23 17:11:41,676] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:11:41,677] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:11:41,691] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.021 seconds
+[2023-02-23 17:12:11,791] {scheduler_job.py:182} INFO - Started process (PID=2869) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:12:11,791] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:12:11,792] {logging_mixin.py:104} INFO - [2023-02-23 17:12:11,792] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:12:11,794] {logging_mixin.py:104} INFO - [2023-02-23 17:12:11,794] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:12:11,795] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:12:11,811] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.023 seconds
+[2023-02-23 17:12:42,784] {scheduler_job.py:182} INFO - Started process (PID=2931) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:12:42,785] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:12:42,786] {logging_mixin.py:104} INFO - [2023-02-23 17:12:42,786] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:12:42,788] {logging_mixin.py:104} INFO - [2023-02-23 17:12:42,787] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:12:42,788] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:12:42,805] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.023 seconds
+[2023-02-23 17:13:13,317] {scheduler_job.py:182} INFO - Started process (PID=2983) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:13:13,318] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:13:13,319] {logging_mixin.py:104} INFO - [2023-02-23 17:13:13,319] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:13:13,321] {logging_mixin.py:104} INFO - [2023-02-23 17:13:13,320] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:13:13,321] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:13:13,336] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.021 seconds
+[2023-02-23 17:13:43,502] {scheduler_job.py:182} INFO - Started process (PID=3035) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:13:43,503] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:13:43,504] {logging_mixin.py:104} INFO - [2023-02-23 17:13:43,504] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:13:43,507] {logging_mixin.py:104} INFO - [2023-02-23 17:13:43,506] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:13:43,507] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:13:43,522] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.023 seconds
+[2023-02-23 17:14:14,020] {scheduler_job.py:182} INFO - Started process (PID=3097) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:14:14,021] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:14:14,022] {logging_mixin.py:104} INFO - [2023-02-23 17:14:14,022] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:14:14,024] {logging_mixin.py:104} INFO - [2023-02-23 17:14:14,023] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:14:14,024] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:14:14,039] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.022 seconds
+[2023-02-23 17:14:44,509] {scheduler_job.py:182} INFO - Started process (PID=3149) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:14:44,510] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:14:44,510] {logging_mixin.py:104} INFO - [2023-02-23 17:14:44,510] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:14:44,512] {logging_mixin.py:104} INFO - [2023-02-23 17:14:44,512] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:14:44,512] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:14:44,526] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.019 seconds
+[2023-02-23 17:15:14,887] {scheduler_job.py:182} INFO - Started process (PID=3211) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:15:14,888] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:15:14,888] {logging_mixin.py:104} INFO - [2023-02-23 17:15:14,888] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:15:14,890] {logging_mixin.py:104} INFO - [2023-02-23 17:15:14,890] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:15:14,891] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:15:14,905] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.020 seconds
+[2023-02-23 17:15:45,029] {scheduler_job.py:182} INFO - Started process (PID=3263) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:15:45,029] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:15:45,030] {logging_mixin.py:104} INFO - [2023-02-23 17:15:45,030] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:15:45,032] {logging_mixin.py:104} INFO - [2023-02-23 17:15:45,032] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:15:45,033] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:15:45,049] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.023 seconds
+[2023-02-23 17:16:15,821] {scheduler_job.py:182} INFO - Started process (PID=3315) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:16:15,821] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:16:15,822] {logging_mixin.py:104} INFO - [2023-02-23 17:16:15,822] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:16:15,824] {logging_mixin.py:104} INFO - [2023-02-23 17:16:15,823] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:16:15,824] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:16:15,839] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.021 seconds
+[2023-02-23 17:16:46,492] {scheduler_job.py:182} INFO - Started process (PID=3376) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:16:46,493] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:16:46,494] {logging_mixin.py:104} INFO - [2023-02-23 17:16:46,493] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:16:46,496] {logging_mixin.py:104} INFO - [2023-02-23 17:16:46,495] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:16:46,496] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:16:46,511] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.021 seconds
+[2023-02-23 17:17:16,852] {scheduler_job.py:182} INFO - Started process (PID=3428) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:17:16,853] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:17:16,853] {logging_mixin.py:104} INFO - [2023-02-23 17:17:16,853] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:17:16,856] {logging_mixin.py:104} INFO - [2023-02-23 17:17:16,855] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:17:16,856] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:17:16,871] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.022 seconds
+[2023-02-23 17:17:47,741] {scheduler_job.py:182} INFO - Started process (PID=3490) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:17:47,742] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:17:47,743] {logging_mixin.py:104} INFO - [2023-02-23 17:17:47,742] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:17:47,772] {logging_mixin.py:104} INFO - [2023-02-23 17:17:47,771] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:17:47,773] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:17:47,792] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.053 seconds
+[2023-02-23 17:18:18,258] {scheduler_job.py:182} INFO - Started process (PID=3542) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:18:18,259] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:18:18,260] {logging_mixin.py:104} INFO - [2023-02-23 17:18:18,260] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:18:18,262] {logging_mixin.py:104} INFO - [2023-02-23 17:18:18,262] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:18:18,263] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:18:18,277] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.021 seconds
+[2023-02-23 17:18:49,018] {scheduler_job.py:182} INFO - Started process (PID=3605) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:18:49,019] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:18:49,020] {logging_mixin.py:104} INFO - [2023-02-23 17:18:49,020] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:18:49,022] {logging_mixin.py:104} INFO - [2023-02-23 17:18:49,022] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:18:49,023] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:18:49,037] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.022 seconds
+[2023-02-23 17:19:19,136] {scheduler_job.py:182} INFO - Started process (PID=3657) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:19:19,137] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:19:19,137] {logging_mixin.py:104} INFO - [2023-02-23 17:19:19,137] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:19:19,139] {logging_mixin.py:104} INFO - [2023-02-23 17:19:19,139] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:19:19,140] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:19:19,155] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.022 seconds
+[2023-02-23 17:19:49,866] {scheduler_job.py:182} INFO - Started process (PID=3719) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:19:49,867] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:19:49,867] {logging_mixin.py:104} INFO - [2023-02-23 17:19:49,867] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:19:49,870] {logging_mixin.py:104} INFO - [2023-02-23 17:19:49,869] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:19:49,870] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:19:49,885] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.021 seconds
+[2023-02-23 17:20:20,581] {scheduler_job.py:182} INFO - Started process (PID=3770) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:20:20,582] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:20:20,583] {logging_mixin.py:104} INFO - [2023-02-23 17:20:20,582] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:20:20,586] {logging_mixin.py:104} INFO - [2023-02-23 17:20:20,585] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:20:20,586] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:20:20,774] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.196 seconds
+[2023-02-23 17:20:50,799] {scheduler_job.py:182} INFO - Started process (PID=3820) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:20:50,799] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:20:50,800] {logging_mixin.py:104} INFO - [2023-02-23 17:20:50,800] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:20:50,802] {logging_mixin.py:104} INFO - [2023-02-23 17:20:50,802] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:20:50,803] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:20:50,820] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.024 seconds
+[2023-02-23 17:21:21,116] {scheduler_job.py:182} INFO - Started process (PID=3870) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:21:21,117] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:21:21,118] {logging_mixin.py:104} INFO - [2023-02-23 17:21:21,117] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:21:21,120] {logging_mixin.py:104} INFO - [2023-02-23 17:21:21,120] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:21:21,121] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:21:21,135] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.022 seconds
+[2023-02-23 17:21:51,445] {scheduler_job.py:182} INFO - Started process (PID=3931) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:21:51,446] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:21:51,446] {logging_mixin.py:104} INFO - [2023-02-23 17:21:51,446] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:21:51,449] {logging_mixin.py:104} INFO - [2023-02-23 17:21:51,448] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:21:51,449] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:21:51,462] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.020 seconds
+[2023-02-23 17:22:22,178] {scheduler_job.py:182} INFO - Started process (PID=3984) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:22:22,179] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:22:22,179] {logging_mixin.py:104} INFO - [2023-02-23 17:22:22,179] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:22:22,182] {logging_mixin.py:104} INFO - [2023-02-23 17:22:22,181] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:22:22,182] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:22:22,287] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.112 seconds
+[2023-02-23 17:22:52,441] {scheduler_job.py:182} INFO - Started process (PID=4036) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:22:52,442] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:22:52,442] {logging_mixin.py:104} INFO - [2023-02-23 17:22:52,442] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:22:52,444] {logging_mixin.py:104} INFO - [2023-02-23 17:22:52,444] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:22:52,445] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:22:52,473] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.034 seconds
+[2023-02-23 17:23:22,938] {scheduler_job.py:182} INFO - Started process (PID=4088) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:23:22,939] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:23:22,939] {logging_mixin.py:104} INFO - [2023-02-23 17:23:22,939] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:23:22,941] {logging_mixin.py:104} INFO - [2023-02-23 17:23:22,941] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:23:22,941] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:23:22,955] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.019 seconds
+[2023-02-23 17:23:53,496] {scheduler_job.py:182} INFO - Started process (PID=4149) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:23:53,496] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:23:53,497] {logging_mixin.py:104} INFO - [2023-02-23 17:23:53,497] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:23:53,500] {logging_mixin.py:104} INFO - [2023-02-23 17:23:53,499] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:23:53,500] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:23:53,515] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.022 seconds
+[2023-02-23 17:24:24,257] {scheduler_job.py:182} INFO - Started process (PID=4201) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:24:24,258] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:24:24,258] {logging_mixin.py:104} INFO - [2023-02-23 17:24:24,258] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:24:24,260] {logging_mixin.py:104} INFO - [2023-02-23 17:24:24,260] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:24:24,261] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:24:24,274] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.020 seconds
+[2023-02-23 17:24:54,490] {scheduler_job.py:182} INFO - Started process (PID=4263) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:24:54,491] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:24:54,491] {logging_mixin.py:104} INFO - [2023-02-23 17:24:54,491] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:24:54,493] {logging_mixin.py:104} INFO - [2023-02-23 17:24:54,493] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:24:54,494] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:24:54,509] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.021 seconds
+[2023-02-23 17:25:24,540] {scheduler_job.py:182} INFO - Started process (PID=4314) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:25:24,541] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:25:24,541] {logging_mixin.py:104} INFO - [2023-02-23 17:25:24,541] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:25:24,543] {logging_mixin.py:104} INFO - [2023-02-23 17:25:24,543] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:25:24,544] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:25:24,558] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.021 seconds
+[2023-02-23 17:25:55,282] {scheduler_job.py:182} INFO - Started process (PID=4366) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:25:55,283] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:25:55,284] {logging_mixin.py:104} INFO - [2023-02-23 17:25:55,283] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:25:55,286] {logging_mixin.py:104} INFO - [2023-02-23 17:25:55,285] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:25:55,286] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:25:55,303] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.024 seconds
+[2023-02-23 17:40:24,991] {scheduler_job.py:182} INFO - Started process (PID=70) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:40:24,992] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:40:24,992] {logging_mixin.py:104} INFO - [2023-02-23 17:40:24,992] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:40:24,995] {logging_mixin.py:104} INFO - [2023-02-23 17:40:24,994] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:40:24,995] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:40:25,169] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.180 seconds
+[2023-02-23 17:40:55,478] {scheduler_job.py:182} INFO - Started process (PID=123) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:40:55,479] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:40:55,480] {logging_mixin.py:104} INFO - [2023-02-23 17:40:55,480] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:40:55,483] {logging_mixin.py:104} INFO - [2023-02-23 17:40:55,482] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:40:55,484] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:40:55,599] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.124 seconds
+[2023-02-23 17:41:26,157] {scheduler_job.py:182} INFO - Started process (PID=175) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:41:26,158] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:41:26,159] {logging_mixin.py:104} INFO - [2023-02-23 17:41:26,159] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:41:26,161] {logging_mixin.py:104} INFO - [2023-02-23 17:41:26,160] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:41:26,161] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:41:26,191] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.036 seconds
+[2023-02-23 17:41:56,777] {scheduler_job.py:182} INFO - Started process (PID=236) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:41:56,778] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:41:56,778] {logging_mixin.py:104} INFO - [2023-02-23 17:41:56,778] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:41:56,780] {logging_mixin.py:104} INFO - [2023-02-23 17:41:56,780] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:41:56,781] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:41:56,802] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.028 seconds
+[2023-02-23 17:42:27,619] {scheduler_job.py:182} INFO - Started process (PID=288) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:42:27,620] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:42:27,620] {logging_mixin.py:104} INFO - [2023-02-23 17:42:27,620] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:42:27,622] {logging_mixin.py:104} INFO - [2023-02-23 17:42:27,622] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:42:27,623] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:42:27,647] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.031 seconds
+[2023-02-23 17:42:58,384] {scheduler_job.py:182} INFO - Started process (PID=350) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:42:58,385] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:42:58,386] {logging_mixin.py:104} INFO - [2023-02-23 17:42:58,386] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:42:58,388] {logging_mixin.py:104} INFO - [2023-02-23 17:42:58,387] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:42:58,388] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:42:58,410] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.028 seconds
+[2023-02-23 17:43:28,769] {scheduler_job.py:182} INFO - Started process (PID=402) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:43:28,770] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:43:28,771] {logging_mixin.py:104} INFO - [2023-02-23 17:43:28,771] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:43:28,773] {logging_mixin.py:104} INFO - [2023-02-23 17:43:28,772] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:43:28,774] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:43:28,869] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.154 seconds
+[2023-02-23 17:43:59,198] {scheduler_job.py:182} INFO - Started process (PID=464) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:43:59,199] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:43:59,199] {logging_mixin.py:104} INFO - [2023-02-23 17:43:59,199] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:43:59,202] {logging_mixin.py:104} INFO - [2023-02-23 17:43:59,201] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:43:59,202] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:43:59,227] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.031 seconds
+[2023-02-23 17:44:30,228] {scheduler_job.py:182} INFO - Started process (PID=516) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:44:30,229] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:44:30,229] {logging_mixin.py:104} INFO - [2023-02-23 17:44:30,229] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:44:30,231] {logging_mixin.py:104} INFO - [2023-02-23 17:44:30,231] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:44:30,232] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:44:30,255] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.029 seconds
+[2023-02-23 17:45:00,925] {scheduler_job.py:182} INFO - Started process (PID=579) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:45:00,926] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:45:00,926] {logging_mixin.py:104} INFO - [2023-02-23 17:45:00,926] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:45:00,928] {logging_mixin.py:104} INFO - [2023-02-23 17:45:00,928] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:45:00,929] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:45:00,956] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.033 seconds
+[2023-02-23 17:45:31,876] {scheduler_job.py:182} INFO - Started process (PID=631) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:45:31,877] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:45:31,877] {logging_mixin.py:104} INFO - [2023-02-23 17:45:31,877] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:45:31,880] {logging_mixin.py:104} INFO - [2023-02-23 17:45:31,879] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:45:31,880] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:45:31,969] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.096 seconds
+[2023-02-23 17:46:02,780] {scheduler_job.py:182} INFO - Started process (PID=693) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:46:02,781] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:46:02,782] {logging_mixin.py:104} INFO - [2023-02-23 17:46:02,781] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:46:02,784] {logging_mixin.py:104} INFO - [2023-02-23 17:46:02,783] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:46:02,784] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:46:02,814] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.036 seconds
+[2023-02-23 17:46:33,337] {scheduler_job.py:182} INFO - Started process (PID=745) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:46:33,338] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:46:33,338] {logging_mixin.py:104} INFO - [2023-02-23 17:46:33,338] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:46:33,340] {logging_mixin.py:104} INFO - [2023-02-23 17:46:33,340] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:46:33,340] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:46:33,364] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.029 seconds
+[2023-02-23 17:47:04,124] {scheduler_job.py:182} INFO - Started process (PID=807) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:47:04,124] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:47:04,125] {logging_mixin.py:104} INFO - [2023-02-23 17:47:04,125] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:47:04,127] {logging_mixin.py:104} INFO - [2023-02-23 17:47:04,126] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:47:04,128] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:47:04,166] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.045 seconds
+[2023-02-23 17:47:34,678] {scheduler_job.py:182} INFO - Started process (PID=866) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:47:34,680] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:47:34,680] {logging_mixin.py:104} INFO - [2023-02-23 17:47:34,680] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:47:34,682] {logging_mixin.py:104} INFO - [2023-02-23 17:47:34,682] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:47:34,683] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:47:34,707] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.031 seconds
+[2023-02-23 17:48:04,825] {scheduler_job.py:182} INFO - Started process (PID=921) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:48:04,826] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:48:04,826] {logging_mixin.py:104} INFO - [2023-02-23 17:48:04,826] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:48:04,829] {logging_mixin.py:104} INFO - [2023-02-23 17:48:04,828] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:48:04,829] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:48:04,854] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.031 seconds
+[2023-02-23 17:48:35,682] {scheduler_job.py:182} INFO - Started process (PID=982) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:48:35,683] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:48:35,683] {logging_mixin.py:104} INFO - [2023-02-23 17:48:35,683] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:48:35,685] {logging_mixin.py:104} INFO - [2023-02-23 17:48:35,685] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:48:35,686] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:48:35,713] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.033 seconds
+[2023-02-23 17:49:06,144] {scheduler_job.py:182} INFO - Started process (PID=1035) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:49:06,145] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:49:06,146] {logging_mixin.py:104} INFO - [2023-02-23 17:49:06,145] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:49:06,148] {logging_mixin.py:104} INFO - [2023-02-23 17:49:06,147] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:49:06,148] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:49:06,171] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.029 seconds
+[2023-02-23 17:49:36,770] {scheduler_job.py:182} INFO - Started process (PID=1097) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:49:36,771] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:49:36,772] {logging_mixin.py:104} INFO - [2023-02-23 17:49:36,771] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:49:36,774] {logging_mixin.py:104} INFO - [2023-02-23 17:49:36,773] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:49:36,774] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:49:36,799] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.064 seconds
+[2023-02-23 17:50:07,100] {scheduler_job.py:182} INFO - Started process (PID=1149) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:50:07,101] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:50:07,102] {logging_mixin.py:104} INFO - [2023-02-23 17:50:07,102] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:50:07,104] {logging_mixin.py:104} INFO - [2023-02-23 17:50:07,103] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:50:07,104] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:50:07,126] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.028 seconds
+[2023-02-23 17:50:37,957] {scheduler_job.py:182} INFO - Started process (PID=1211) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:50:37,957] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:50:37,958] {logging_mixin.py:104} INFO - [2023-02-23 17:50:37,958] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:50:37,960] {logging_mixin.py:104} INFO - [2023-02-23 17:50:37,959] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:50:37,960] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:50:37,984] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.030 seconds
+[2023-02-23 17:51:08,798] {scheduler_job.py:182} INFO - Started process (PID=1263) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:51:08,799] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:51:08,799] {logging_mixin.py:104} INFO - [2023-02-23 17:51:08,799] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:51:08,801] {logging_mixin.py:104} INFO - [2023-02-23 17:51:08,801] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:51:08,801] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:51:08,825] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.029 seconds
+[2023-02-23 17:51:39,592] {scheduler_job.py:182} INFO - Started process (PID=1325) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:51:39,593] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:51:39,593] {logging_mixin.py:104} INFO - [2023-02-23 17:51:39,593] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:51:39,595] {logging_mixin.py:104} INFO - [2023-02-23 17:51:39,595] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:51:39,595] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:51:39,617] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.027 seconds
+[2023-02-23 17:52:10,250] {scheduler_job.py:182} INFO - Started process (PID=1377) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:52:10,251] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:52:10,251] {logging_mixin.py:104} INFO - [2023-02-23 17:52:10,251] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:52:10,254] {logging_mixin.py:104} INFO - [2023-02-23 17:52:10,254] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:52:10,255] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:52:10,279] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.031 seconds
+[2023-02-23 17:52:40,866] {scheduler_job.py:182} INFO - Started process (PID=1439) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:52:40,868] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:52:40,868] {logging_mixin.py:104} INFO - [2023-02-23 17:52:40,868] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:52:40,870] {logging_mixin.py:104} INFO - [2023-02-23 17:52:40,870] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:52:40,870] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:52:40,895] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.030 seconds
+[2023-02-23 17:53:11,705] {scheduler_job.py:182} INFO - Started process (PID=1498) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:53:11,705] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:53:11,706] {logging_mixin.py:104} INFO - [2023-02-23 17:53:11,706] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:53:11,708] {logging_mixin.py:104} INFO - [2023-02-23 17:53:11,707] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:53:11,708] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:53:11,732] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.030 seconds
+[2023-02-23 17:53:41,840] {scheduler_job.py:182} INFO - Started process (PID=1554) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:53:41,841] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:53:41,842] {logging_mixin.py:104} INFO - [2023-02-23 17:53:41,842] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:53:41,844] {logging_mixin.py:104} INFO - [2023-02-23 17:53:41,843] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:53:41,844] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:53:41,868] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.030 seconds
+[2023-02-23 17:54:12,341] {scheduler_job.py:182} INFO - Started process (PID=1606) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:54:12,341] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:54:12,342] {logging_mixin.py:104} INFO - [2023-02-23 17:54:12,342] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:54:12,344] {logging_mixin.py:104} INFO - [2023-02-23 17:54:12,343] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:54:12,344] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:54:12,367] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.029 seconds
+[2023-02-23 17:54:43,228] {scheduler_job.py:182} INFO - Started process (PID=1667) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:54:43,229] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:54:43,229] {logging_mixin.py:104} INFO - [2023-02-23 17:54:43,229] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:54:43,231] {logging_mixin.py:104} INFO - [2023-02-23 17:54:43,230] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:54:43,231] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:54:43,295] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.070 seconds
+[2023-02-23 17:55:14,055] {scheduler_job.py:182} INFO - Started process (PID=1720) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:55:14,059] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:55:14,060] {logging_mixin.py:104} INFO - [2023-02-23 17:55:14,060] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:55:14,063] {logging_mixin.py:104} INFO - [2023-02-23 17:55:14,062] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:55:14,063] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:55:14,086] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.033 seconds
+[2023-02-23 17:55:44,229] {scheduler_job.py:182} INFO - Started process (PID=1772) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:55:44,230] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:55:44,231] {logging_mixin.py:104} INFO - [2023-02-23 17:55:44,231] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:55:44,233] {logging_mixin.py:104} INFO - [2023-02-23 17:55:44,232] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:55:44,233] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:55:44,258] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.031 seconds
+[2023-02-23 17:56:14,297] {scheduler_job.py:182} INFO - Started process (PID=1834) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:56:14,298] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:56:14,298] {logging_mixin.py:104} INFO - [2023-02-23 17:56:14,298] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:56:14,300] {logging_mixin.py:104} INFO - [2023-02-23 17:56:14,300] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:56:14,300] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:56:14,322] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.028 seconds
+[2023-02-23 17:56:45,167] {scheduler_job.py:182} INFO - Started process (PID=1895) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:56:45,168] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:56:45,168] {logging_mixin.py:104} INFO - [2023-02-23 17:56:45,168] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:56:45,170] {logging_mixin.py:104} INFO - [2023-02-23 17:56:45,170] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:56:45,171] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:56:45,196] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.031 seconds
+[2023-02-23 17:57:15,527] {scheduler_job.py:182} INFO - Started process (PID=1948) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:57:15,527] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:57:15,528] {logging_mixin.py:104} INFO - [2023-02-23 17:57:15,528] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:57:15,531] {logging_mixin.py:104} INFO - [2023-02-23 17:57:15,531] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:57:15,532] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:57:15,555] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.031 seconds
+[2023-02-23 17:57:45,994] {scheduler_job.py:182} INFO - Started process (PID=2001) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:57:46,069] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:57:46,070] {logging_mixin.py:104} INFO - [2023-02-23 17:57:46,070] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:57:46,072] {logging_mixin.py:104} INFO - [2023-02-23 17:57:46,071] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:57:46,072] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:57:46,097] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.105 seconds
+[2023-02-23 17:58:16,967] {scheduler_job.py:182} INFO - Started process (PID=2053) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:58:16,968] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:58:16,968] {logging_mixin.py:104} INFO - [2023-02-23 17:58:16,968] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:58:16,970] {logging_mixin.py:104} INFO - [2023-02-23 17:58:16,970] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:58:16,971] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:58:16,992] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.027 seconds
+[2023-02-23 17:58:47,439] {scheduler_job.py:182} INFO - Started process (PID=2115) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:58:47,440] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:58:47,440] {logging_mixin.py:104} INFO - [2023-02-23 17:58:47,440] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:58:47,443] {logging_mixin.py:104} INFO - [2023-02-23 17:58:47,442] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:58:47,443] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:58:47,471] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.034 seconds
+[2023-02-23 17:59:17,843] {scheduler_job.py:182} INFO - Started process (PID=2176) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:59:17,843] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:59:17,844] {logging_mixin.py:104} INFO - [2023-02-23 17:59:17,844] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:59:17,846] {logging_mixin.py:104} INFO - [2023-02-23 17:59:17,845] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:59:17,846] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:59:17,876] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.036 seconds
+[2023-02-23 17:59:48,606] {scheduler_job.py:182} INFO - Started process (PID=2229) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:59:48,607] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 17:59:48,608] {logging_mixin.py:104} INFO - [2023-02-23 17:59:48,608] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:59:48,610] {logging_mixin.py:104} INFO - [2023-02-23 17:59:48,609] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 17:59:48,610] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 17:59:48,641] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.037 seconds
+[2023-02-23 18:00:17,100] {scheduler_job.py:182} INFO - Started process (PID=2288) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 18:00:17,101] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 18:00:17,102] {logging_mixin.py:104} INFO - [2023-02-23 18:00:17,101] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 18:00:17,105] {logging_mixin.py:104} INFO - [2023-02-23 18:00:17,104] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 18:00:17,105] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 18:00:17,127] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.029 seconds
+[2023-02-23 18:00:23,417] {scheduler_job.py:182} INFO - Started process (PID=2299) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 18:00:23,418] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 18:00:23,418] {logging_mixin.py:104} INFO - [2023-02-23 18:00:23,418] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 18:00:23,422] {logging_mixin.py:104} INFO - [2023-02-23 18:00:23,421] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 18:00:23,422] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 18:00:23,449] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.034 seconds
+[2023-02-23 18:00:54,318] {scheduler_job.py:182} INFO - Started process (PID=2351) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 18:00:54,319] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 18:00:54,319] {logging_mixin.py:104} INFO - [2023-02-23 18:00:54,319] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 18:00:54,321] {logging_mixin.py:104} INFO - [2023-02-23 18:00:54,321] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 18:00:54,321] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 18:00:54,348] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.033 seconds
+[2023-02-23 18:01:24,903] {scheduler_job.py:182} INFO - Started process (PID=2412) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 18:01:24,904] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 18:01:24,905] {logging_mixin.py:104} INFO - [2023-02-23 18:01:24,905] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 18:01:24,908] {logging_mixin.py:104} INFO - [2023-02-23 18:01:24,907] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 18:01:24,908] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 18:01:24,932] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.032 seconds
+[2023-02-23 18:01:55,634] {scheduler_job.py:182} INFO - Started process (PID=2473) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 18:01:55,635] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-23 18:01:55,636] {logging_mixin.py:104} INFO - [2023-02-23 18:01:55,636] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 18:01:55,638] {logging_mixin.py:104} INFO - [2023-02-23 18:01:55,637] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/dag_airbyte_dbt.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_airbyte_dbt.py", line 4, in <module>
+    from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
+ModuleNotFoundError: No module named 'airflow.providers.airbyte'
+[2023-02-23 18:01:55,638] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-23 18:01:55,661] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.029 seconds
