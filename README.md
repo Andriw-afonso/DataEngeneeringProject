@@ -6,5 +6,6 @@
 ### (OK) Criar o DW no snowflake
 ### (ok) Criar a Destination no Snowflake
 ### (ok) Criar as Sources
-### Carregar o DW com os dados
+### (ok) Carregar o DW com os dados
+### Criar as dags do Airflow e testar funcionamento
 
