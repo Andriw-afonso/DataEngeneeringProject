@@ -1,3 +1,5 @@
+# Base de dados : https://health.google.com/covid-19/open-data/raw-data
+
 # Tarefaz
 ### (ok) Subir o Airbyte
 ### (ok) Subir o Airflow
@@ -7,5 +9,7 @@
 ### (ok) Criar a Destination no Snowflake
 ### (ok) Criar as Sources
 ### (ok) Carregar o DW com os dados
-### Criar as dags do Airflow e testar funcionamento
+### (ok) Criar as dags do Airflow e testar funcionamento
+### Analisar os dados e definir tranasformações.
+### Implementar as transformações com o DBT
 

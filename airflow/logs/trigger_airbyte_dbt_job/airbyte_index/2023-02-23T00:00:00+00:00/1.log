@@ -1,0 +1,52 @@
+[2023-02-24 16:17:50,791] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: trigger_airbyte_dbt_job.airbyte_index 2023-02-23T00:00:00+00:00 [queued]>
+[2023-02-24 16:17:50,880] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: trigger_airbyte_dbt_job.airbyte_index 2023-02-23T00:00:00+00:00 [queued]>
+[2023-02-24 16:17:50,880] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-24 16:17:50,881] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2023-02-24 16:17:50,881] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-24 16:17:50,892] {taskinstance.py:1107} INFO - Executing <Task(AirbyteTriggerSyncOperator): airbyte_index> on 2023-02-23T00:00:00+00:00
+[2023-02-24 16:17:50,898] {standard_task_runner.py:52} INFO - Started process 163 to run task
+[2023-02-24 16:17:50,967] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'trigger_airbyte_dbt_job', 'airbyte_index', '2023-02-23T00:00:00+00:00', '--job-id', '51', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag_airbyte_dbt.py', '--cfg-path', '/tmp/tmpxx4b0duq', '--error-file', '/tmp/tmplhvkukm5']
+[2023-02-24 16:17:50,967] {standard_task_runner.py:77} INFO - Job 51: Subtask airbyte_index
+[2023-02-24 16:17:51,088] {logging_mixin.py:104} INFO - Running <TaskInstance: trigger_airbyte_dbt_job.airbyte_index 2023-02-23T00:00:00+00:00 [running]> on host 056b6eecd82f
+[2023-02-24 16:17:51,370] {taskinstance.py:1302} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=trigger_airbyte_dbt_job
+AIRFLOW_CTX_TASK_ID=airbyte_index
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-23T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-23T00:00:00+00:00
+[2023-02-24 16:17:51,464] {base.py:78} INFO - Using connection to: id: airbyte_example. Host: airbyte-proxy, Port: 8000, Schema: , Login: None, Password: None, extra: {}
+[2023-02-24 16:17:51,467] {http.py:140} INFO - Sending 'POST' to url: http://airbyte-proxy:8000/api/v1/connections/sync
+[2023-02-24 16:17:52,775] {http.py:154} ERROR - HTTP error: Bad Request
+[2023-02-24 16:17:52,775] {http.py:155} ERROR - {"message":"Bad Request","_links":{"self":{"href":"/api/v1/connections/sync","templated":false}},"_embedded":{"errors":[{"message":"Failed to convert argument [connectionIdRequestBody] for value [null] due to: Cannot deserialize value of type `java.util.UUID` from String \"$index_connection_id\": UUID has to be represented by standard 36-char representation\n at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: io.airbyte.api.model.generated.ConnectionIdRequestBody[\"connectionId\"])","path":"/connectionIdRequestBody"}]}}
+[2023-02-24 16:17:52,787] {taskinstance.py:1501} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/http/hooks/http.py", line 152, in check_response
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: http://airbyte-proxy:8000/api/v1/connections/sync
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1157, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1331, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1361, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/airbyte/operators/airbyte.py", line 71, in execute
+    job_object = hook.submit_sync_connection(connection_id=self.connection_id)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/airbyte/hooks/airbyte.py", line 95, in submit_sync_connection
+    headers={"accept": "application/json"},
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/http/hooks/http.py", line 141, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/http/hooks/http.py", line 198, in run_and_check
+    self.check_response(response)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/http/hooks/http.py", line 156, in check_response
+    raise AirflowException(str(response.status_code) + ":" + response.reason)
+airflow.exceptions.AirflowException: 400:Bad Request
+[2023-02-24 16:17:52,793] {taskinstance.py:1551} INFO - Marking task as FAILED. dag_id=trigger_airbyte_dbt_job, task_id=airbyte_index, execution_date=20230223T000000, start_date=20230224T161750, end_date=20230224T161752
+[2023-02-24 16:17:52,964] {local_task_job.py:151} INFO - Task exited with return code 1

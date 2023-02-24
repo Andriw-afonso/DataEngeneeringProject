@@ -1,0 +1,1281 @@
+[2023-02-24 16:17:40,399] {scheduler_job.py:182} INFO - Started process (PID=86) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:17:40,400] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:17:40,400] {logging_mixin.py:104} INFO - [2023-02-24 16:17:40,400] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:17:40,601] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:17:41,605] {logging_mixin.py:104} INFO - [2023-02-24 16:17:41,604] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:17:41,679] {logging_mixin.py:104} INFO - [2023-02-24 16:17:41,678] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:17:41,691] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 1.311 seconds
+[2023-02-24 16:18:12,402] {scheduler_job.py:182} INFO - Started process (PID=138) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:18:12,403] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:18:12,404] {logging_mixin.py:104} INFO - [2023-02-24 16:18:12,404] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:18:12,437] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:18:12,447] {logging_mixin.py:104} INFO - [2023-02-24 16:18:12,447] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:18:12,463] {logging_mixin.py:104} INFO - [2023-02-24 16:18:12,463] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:18:12,471] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.071 seconds
+[2023-02-24 16:18:42,845] {scheduler_job.py:182} INFO - Started process (PID=197) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:18:42,846] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:18:42,846] {logging_mixin.py:104} INFO - [2023-02-24 16:18:42,846] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:18:42,884] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:18:42,895] {logging_mixin.py:104} INFO - [2023-02-24 16:18:42,895] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:18:42,915] {logging_mixin.py:104} INFO - [2023-02-24 16:18:42,915] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:18:42,926] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.083 seconds
+[2023-02-24 16:19:13,320] {scheduler_job.py:182} INFO - Started process (PID=252) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:19:13,321] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:19:13,322] {logging_mixin.py:104} INFO - [2023-02-24 16:19:13,321] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:19:13,354] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:19:13,363] {logging_mixin.py:104} INFO - [2023-02-24 16:19:13,363] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:19:13,381] {logging_mixin.py:104} INFO - [2023-02-24 16:19:13,381] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:19:13,389] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.072 seconds
+[2023-02-24 16:19:43,834] {scheduler_job.py:182} INFO - Started process (PID=304) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:19:43,835] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:19:43,836] {logging_mixin.py:104} INFO - [2023-02-24 16:19:43,836] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:19:43,887] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:19:43,897] {logging_mixin.py:104} INFO - [2023-02-24 16:19:43,897] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:19:43,915] {logging_mixin.py:104} INFO - [2023-02-24 16:19:43,915] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:19:43,923] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.092 seconds
+[2023-02-24 16:20:14,149] {scheduler_job.py:182} INFO - Started process (PID=365) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:20:14,151] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:20:14,151] {logging_mixin.py:104} INFO - [2023-02-24 16:20:14,151] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:20:14,189] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:20:14,201] {logging_mixin.py:104} INFO - [2023-02-24 16:20:14,201] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:20:14,221] {logging_mixin.py:104} INFO - [2023-02-24 16:20:14,221] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:20:14,229] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.083 seconds
+[2023-02-24 16:20:44,931] {scheduler_job.py:182} INFO - Started process (PID=417) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:20:44,932] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:20:44,932] {logging_mixin.py:104} INFO - [2023-02-24 16:20:44,932] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:20:44,991] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:20:45,002] {logging_mixin.py:104} INFO - [2023-02-24 16:20:45,002] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:20:45,069] {logging_mixin.py:104} INFO - [2023-02-24 16:20:45,068] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:20:45,078] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.150 seconds
+[2023-02-24 16:21:15,478] {scheduler_job.py:182} INFO - Started process (PID=478) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:21:15,479] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:21:15,479] {logging_mixin.py:104} INFO - [2023-02-24 16:21:15,479] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:21:15,510] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:21:15,520] {logging_mixin.py:104} INFO - [2023-02-24 16:21:15,520] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:21:15,537] {logging_mixin.py:104} INFO - [2023-02-24 16:21:15,537] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:21:15,544] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.068 seconds
+[2023-02-24 16:21:45,687] {scheduler_job.py:182} INFO - Started process (PID=531) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:21:45,688] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:21:45,689] {logging_mixin.py:104} INFO - [2023-02-24 16:21:45,689] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:21:45,723] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:21:45,732] {logging_mixin.py:104} INFO - [2023-02-24 16:21:45,731] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:21:45,747] {logging_mixin.py:104} INFO - [2023-02-24 16:21:45,747] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:21:45,754] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.069 seconds
+[2023-02-24 16:22:16,019] {scheduler_job.py:182} INFO - Started process (PID=583) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:22:16,020] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:22:16,020] {logging_mixin.py:104} INFO - [2023-02-24 16:22:16,020] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:22:16,058] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:22:16,069] {logging_mixin.py:104} INFO - [2023-02-24 16:22:16,069] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:22:16,090] {logging_mixin.py:104} INFO - [2023-02-24 16:22:16,089] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:22:16,097] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.082 seconds
+[2023-02-24 16:22:46,490] {scheduler_job.py:182} INFO - Started process (PID=645) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:22:46,491] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:22:46,492] {logging_mixin.py:104} INFO - [2023-02-24 16:22:46,492] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:22:46,526] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:22:46,534] {logging_mixin.py:104} INFO - [2023-02-24 16:22:46,534] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:22:46,571] {logging_mixin.py:104} INFO - [2023-02-24 16:22:46,571] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:22:46,578] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.090 seconds
+[2023-02-24 16:23:17,005] {scheduler_job.py:182} INFO - Started process (PID=697) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:23:17,006] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:23:17,006] {logging_mixin.py:104} INFO - [2023-02-24 16:23:17,006] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:23:17,037] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:23:17,046] {logging_mixin.py:104} INFO - [2023-02-24 16:23:17,046] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:23:17,063] {logging_mixin.py:104} INFO - [2023-02-24 16:23:17,063] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:23:17,070] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.068 seconds
+[2023-02-24 16:23:47,375] {scheduler_job.py:182} INFO - Started process (PID=759) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:23:47,376] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:23:47,377] {logging_mixin.py:104} INFO - [2023-02-24 16:23:47,377] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:23:47,504] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:23:47,515] {logging_mixin.py:104} INFO - [2023-02-24 16:23:47,515] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:23:47,581] {logging_mixin.py:104} INFO - [2023-02-24 16:23:47,581] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:23:47,589] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.216 seconds
+[2023-02-24 16:24:17,739] {scheduler_job.py:182} INFO - Started process (PID=812) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:24:17,739] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:24:17,740] {logging_mixin.py:104} INFO - [2023-02-24 16:24:17,740] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:24:17,770] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:24:17,780] {logging_mixin.py:104} INFO - [2023-02-24 16:24:17,780] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:24:17,798] {logging_mixin.py:104} INFO - [2023-02-24 16:24:17,798] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:24:17,806] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.071 seconds
+[2023-02-24 16:24:47,986] {scheduler_job.py:182} INFO - Started process (PID=873) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:24:47,988] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:24:47,988] {logging_mixin.py:104} INFO - [2023-02-24 16:24:47,988] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:24:48,026] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:24:48,035] {logging_mixin.py:104} INFO - [2023-02-24 16:24:48,035] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:24:48,049] {logging_mixin.py:104} INFO - [2023-02-24 16:24:48,049] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:24:48,345] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.361 seconds
+[2023-02-24 16:25:18,442] {scheduler_job.py:182} INFO - Started process (PID=925) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:25:18,443] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:25:18,443] {logging_mixin.py:104} INFO - [2023-02-24 16:25:18,443] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:25:18,475] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:25:18,484] {logging_mixin.py:104} INFO - [2023-02-24 16:25:18,484] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:25:18,499] {logging_mixin.py:104} INFO - [2023-02-24 16:25:18,499] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:25:18,505] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.065 seconds
+[2023-02-24 16:25:48,586] {scheduler_job.py:182} INFO - Started process (PID=987) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:25:48,587] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:25:48,588] {logging_mixin.py:104} INFO - [2023-02-24 16:25:48,587] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:25:48,619] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:25:48,628] {logging_mixin.py:104} INFO - [2023-02-24 16:25:48,627] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:25:48,643] {logging_mixin.py:104} INFO - [2023-02-24 16:25:48,643] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:25:48,649] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.066 seconds
+[2023-02-24 16:26:19,003] {scheduler_job.py:182} INFO - Started process (PID=1039) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:26:19,004] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:26:19,004] {logging_mixin.py:104} INFO - [2023-02-24 16:26:19,004] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:26:19,036] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:26:19,044] {logging_mixin.py:104} INFO - [2023-02-24 16:26:19,044] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:26:19,061] {logging_mixin.py:104} INFO - [2023-02-24 16:26:19,060] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:26:19,068] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.067 seconds
+[2023-02-24 16:26:49,618] {scheduler_job.py:182} INFO - Started process (PID=1101) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:26:49,619] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:26:49,620] {logging_mixin.py:104} INFO - [2023-02-24 16:26:49,620] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:26:49,655] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:26:49,670] {logging_mixin.py:104} INFO - [2023-02-24 16:26:49,670] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:26:49,692] {logging_mixin.py:104} INFO - [2023-02-24 16:26:49,692] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:26:49,701] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.085 seconds
+[2023-02-24 16:27:20,692] {scheduler_job.py:182} INFO - Started process (PID=1153) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:27:20,693] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:27:20,694] {logging_mixin.py:104} INFO - [2023-02-24 16:27:20,693] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:27:20,749] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:27:20,758] {logging_mixin.py:104} INFO - [2023-02-24 16:27:20,757] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:27:20,778] {logging_mixin.py:104} INFO - [2023-02-24 16:27:20,778] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:27:20,787] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.098 seconds
+[2023-02-24 16:27:51,307] {scheduler_job.py:182} INFO - Started process (PID=1214) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:27:51,308] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:27:51,308] {logging_mixin.py:104} INFO - [2023-02-24 16:27:51,308] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:27:51,385] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:27:51,409] {logging_mixin.py:104} INFO - [2023-02-24 16:27:51,409] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:27:51,427] {logging_mixin.py:104} INFO - [2023-02-24 16:27:51,427] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:27:51,437] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.133 seconds
+[2023-02-24 16:28:21,873] {scheduler_job.py:182} INFO - Started process (PID=1266) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:28:21,874] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:28:21,875] {logging_mixin.py:104} INFO - [2023-02-24 16:28:21,875] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:28:21,909] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:28:21,917] {logging_mixin.py:104} INFO - [2023-02-24 16:28:21,917] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:28:21,971] {logging_mixin.py:104} INFO - [2023-02-24 16:28:21,971] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:28:21,981] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.111 seconds
+[2023-02-24 16:28:52,081] {scheduler_job.py:182} INFO - Started process (PID=1325) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:28:52,091] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:28:52,093] {logging_mixin.py:104} INFO - [2023-02-24 16:28:52,092] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:28:52,209] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:28:52,272] {logging_mixin.py:104} INFO - [2023-02-24 16:28:52,272] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:28:52,301] {logging_mixin.py:104} INFO - [2023-02-24 16:28:52,301] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:28:52,367] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.289 seconds
+[2023-02-24 16:29:23,377] {scheduler_job.py:182} INFO - Started process (PID=1379) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:29:23,378] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:29:23,379] {logging_mixin.py:104} INFO - [2023-02-24 16:29:23,379] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:29:23,420] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:29:23,433] {logging_mixin.py:104} INFO - [2023-02-24 16:29:23,432] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:29:23,483] {logging_mixin.py:104} INFO - [2023-02-24 16:29:23,483] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:29:23,492] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.119 seconds
+[2023-02-24 16:29:53,844] {scheduler_job.py:182} INFO - Started process (PID=1430) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:29:53,859] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:29:53,860] {logging_mixin.py:104} INFO - [2023-02-24 16:29:53,859] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:29:53,965] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:29:53,979] {logging_mixin.py:104} INFO - [2023-02-24 16:29:53,979] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:29:54,000] {logging_mixin.py:104} INFO - [2023-02-24 16:29:54,000] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:29:54,010] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.168 seconds
+[2023-02-24 16:30:24,163] {scheduler_job.py:182} INFO - Started process (PID=1481) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:30:24,164] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:30:24,165] {logging_mixin.py:104} INFO - [2023-02-24 16:30:24,165] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:30:24,210] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:30:24,223] {logging_mixin.py:104} INFO - [2023-02-24 16:30:24,223] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:30:24,241] {logging_mixin.py:104} INFO - [2023-02-24 16:30:24,241] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:30:24,250] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.090 seconds
+[2023-02-24 16:30:54,851] {scheduler_job.py:182} INFO - Started process (PID=1543) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:30:54,852] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:30:54,853] {logging_mixin.py:104} INFO - [2023-02-24 16:30:54,853] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:30:54,912] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:30:54,923] {logging_mixin.py:104} INFO - [2023-02-24 16:30:54,922] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:30:54,944] {logging_mixin.py:104} INFO - [2023-02-24 16:30:54,944] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:30:54,953] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.109 seconds
+[2023-02-24 16:31:25,128] {scheduler_job.py:182} INFO - Started process (PID=1595) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:31:25,129] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:31:25,130] {logging_mixin.py:104} INFO - [2023-02-24 16:31:25,130] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:31:25,160] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:31:25,168] {logging_mixin.py:104} INFO - [2023-02-24 16:31:25,168] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:31:25,184] {logging_mixin.py:104} INFO - [2023-02-24 16:31:25,184] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:31:25,192] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.066 seconds
+[2023-02-24 16:31:55,873] {scheduler_job.py:182} INFO - Started process (PID=1657) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:31:55,874] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:31:55,875] {logging_mixin.py:104} INFO - [2023-02-24 16:31:55,875] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:31:55,911] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:31:55,970] {logging_mixin.py:104} INFO - [2023-02-24 16:31:55,970] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:31:55,989] {logging_mixin.py:104} INFO - [2023-02-24 16:31:55,989] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:31:55,998] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.128 seconds
+[2023-02-24 16:32:26,938] {scheduler_job.py:182} INFO - Started process (PID=1709) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:32:26,939] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:32:26,939] {logging_mixin.py:104} INFO - [2023-02-24 16:32:26,939] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:32:26,972] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:32:26,984] {logging_mixin.py:104} INFO - [2023-02-24 16:32:26,984] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:32:27,004] {logging_mixin.py:104} INFO - [2023-02-24 16:32:27,003] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:32:27,012] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.077 seconds
+[2023-02-24 16:32:57,616] {scheduler_job.py:182} INFO - Started process (PID=1770) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:32:57,617] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:32:57,617] {logging_mixin.py:104} INFO - [2023-02-24 16:32:57,617] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:32:57,648] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:32:57,656] {logging_mixin.py:104} INFO - [2023-02-24 16:32:57,656] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:32:57,676] {logging_mixin.py:104} INFO - [2023-02-24 16:32:57,676] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:32:57,683] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.069 seconds
+[2023-02-24 16:33:28,584] {scheduler_job.py:182} INFO - Started process (PID=1822) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:33:28,585] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:33:28,586] {logging_mixin.py:104} INFO - [2023-02-24 16:33:28,585] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:33:28,616] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:33:28,790] {logging_mixin.py:104} INFO - [2023-02-24 16:33:28,790] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:33:28,803] {logging_mixin.py:104} INFO - [2023-02-24 16:33:28,803] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:33:28,811] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.229 seconds
+[2023-02-24 16:33:59,403] {scheduler_job.py:182} INFO - Started process (PID=1885) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:33:59,404] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:33:59,404] {logging_mixin.py:104} INFO - [2023-02-24 16:33:59,404] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:33:59,435] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:33:59,643] {logging_mixin.py:104} INFO - [2023-02-24 16:33:59,643] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:33:59,666] {logging_mixin.py:104} INFO - [2023-02-24 16:33:59,666] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:33:59,677] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.277 seconds
+[2023-02-24 16:34:29,749] {scheduler_job.py:182} INFO - Started process (PID=1940) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:34:29,749] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:34:29,750] {logging_mixin.py:104} INFO - [2023-02-24 16:34:29,750] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:34:29,786] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:34:29,795] {logging_mixin.py:104} INFO - [2023-02-24 16:34:29,795] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:34:29,813] {logging_mixin.py:104} INFO - [2023-02-24 16:34:29,813] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:34:29,821] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.076 seconds
+[2023-02-24 16:34:59,925] {scheduler_job.py:182} INFO - Started process (PID=1988) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:34:59,927] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:34:59,928] {logging_mixin.py:104} INFO - [2023-02-24 16:34:59,928] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:34:59,958] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:34:59,966] {logging_mixin.py:104} INFO - [2023-02-24 16:34:59,966] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:34:59,983] {logging_mixin.py:104} INFO - [2023-02-24 16:34:59,983] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:34:59,991] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.068 seconds
+[2023-02-24 16:35:30,410] {scheduler_job.py:182} INFO - Started process (PID=2050) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:35:30,411] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:35:30,412] {logging_mixin.py:104} INFO - [2023-02-24 16:35:30,412] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:35:30,497] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:35:30,570] {logging_mixin.py:104} INFO - [2023-02-24 16:35:30,570] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:35:30,589] {logging_mixin.py:104} INFO - [2023-02-24 16:35:30,589] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:35:30,598] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.190 seconds
+[2023-02-24 16:36:01,467] {scheduler_job.py:182} INFO - Started process (PID=2099) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:36:01,471] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:36:01,476] {logging_mixin.py:104} INFO - [2023-02-24 16:36:01,475] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:36:01,976] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:36:02,165] {logging_mixin.py:104} INFO - [2023-02-24 16:36:02,165] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:36:02,475] {logging_mixin.py:104} INFO - [2023-02-24 16:36:02,475] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:36:02,488] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 1.203 seconds
+[2023-02-24 16:36:33,268] {scheduler_job.py:182} INFO - Started process (PID=2144) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:36:33,269] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:36:33,270] {logging_mixin.py:104} INFO - [2023-02-24 16:36:33,270] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:36:33,466] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:36:33,477] {logging_mixin.py:104} INFO - [2023-02-24 16:36:33,476] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:36:33,581] {logging_mixin.py:104} INFO - [2023-02-24 16:36:33,580] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:36:33,590] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.325 seconds
+[2023-02-24 16:37:03,797] {scheduler_job.py:182} INFO - Started process (PID=2197) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:37:03,798] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:37:03,798] {logging_mixin.py:104} INFO - [2023-02-24 16:37:03,798] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:37:03,831] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:37:03,839] {logging_mixin.py:104} INFO - [2023-02-24 16:37:03,839] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:37:03,854] {logging_mixin.py:104} INFO - [2023-02-24 16:37:03,854] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:37:03,865] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.070 seconds
+[2023-02-24 16:37:34,774] {scheduler_job.py:182} INFO - Started process (PID=2248) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:37:34,776] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:37:34,776] {logging_mixin.py:104} INFO - [2023-02-24 16:37:34,776] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:37:34,881] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:37:34,893] {logging_mixin.py:104} INFO - [2023-02-24 16:37:34,892] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:37:34,967] {logging_mixin.py:104} INFO - [2023-02-24 16:37:34,967] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:37:34,985] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.214 seconds
+[2023-02-24 16:38:05,187] {scheduler_job.py:182} INFO - Started process (PID=2300) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:38:05,190] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:38:05,265] {logging_mixin.py:104} INFO - [2023-02-24 16:38:05,265] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:38:05,575] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:38:05,589] {logging_mixin.py:104} INFO - [2023-02-24 16:38:05,589] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:38:05,765] {logging_mixin.py:104} INFO - [2023-02-24 16:38:05,764] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:38:05,777] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.600 seconds
+[2023-02-24 16:38:36,405] {scheduler_job.py:182} INFO - Started process (PID=2353) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:38:36,405] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:38:36,406] {logging_mixin.py:104} INFO - [2023-02-24 16:38:36,406] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:38:36,434] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:38:36,442] {logging_mixin.py:104} INFO - [2023-02-24 16:38:36,442] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:38:36,455] {logging_mixin.py:104} INFO - [2023-02-24 16:38:36,455] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:38:36,462] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.059 seconds
+[2023-02-24 16:39:07,566] {scheduler_job.py:182} INFO - Started process (PID=2403) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:39:07,568] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:39:07,569] {logging_mixin.py:104} INFO - [2023-02-24 16:39:07,569] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:39:07,877] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:39:07,978] {logging_mixin.py:104} INFO - [2023-02-24 16:39:07,978] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:39:08,183] {logging_mixin.py:104} INFO - [2023-02-24 16:39:08,182] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:39:08,367] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.879 seconds
+[2023-02-24 16:39:38,690] {scheduler_job.py:182} INFO - Started process (PID=2452) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:39:38,691] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:39:38,692] {logging_mixin.py:104} INFO - [2023-02-24 16:39:38,692] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:39:39,081] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:39:39,177] {logging_mixin.py:104} INFO - [2023-02-24 16:39:39,177] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:39:39,200] {logging_mixin.py:104} INFO - [2023-02-24 16:39:39,199] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:39:39,273] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.587 seconds
+[2023-02-24 16:40:09,713] {scheduler_job.py:182} INFO - Started process (PID=2494) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:40:09,716] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:40:09,716] {logging_mixin.py:104} INFO - [2023-02-24 16:40:09,716] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:40:09,779] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:40:09,798] {logging_mixin.py:104} INFO - [2023-02-24 16:40:09,797] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:40:09,875] {logging_mixin.py:104} INFO - [2023-02-24 16:40:09,875] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:40:09,885] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.174 seconds
+[2023-02-24 16:40:40,624] {scheduler_job.py:182} INFO - Started process (PID=2556) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:40:40,625] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:40:40,626] {logging_mixin.py:104} INFO - [2023-02-24 16:40:40,626] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:40:40,681] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:40:40,691] {logging_mixin.py:104} INFO - [2023-02-24 16:40:40,691] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:40:40,709] {logging_mixin.py:104} INFO - [2023-02-24 16:40:40,709] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:40:40,724] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.102 seconds
+[2023-02-24 16:41:11,017] {scheduler_job.py:182} INFO - Started process (PID=2607) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:41:11,018] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:41:11,019] {logging_mixin.py:104} INFO - [2023-02-24 16:41:11,019] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:41:11,096] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:41:11,108] {logging_mixin.py:104} INFO - [2023-02-24 16:41:11,108] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:41:11,175] {logging_mixin.py:104} INFO - [2023-02-24 16:41:11,175] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:41:11,185] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.170 seconds
+[2023-02-24 16:41:41,900] {scheduler_job.py:182} INFO - Started process (PID=2650) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:41:41,971] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:41:41,975] {logging_mixin.py:104} INFO - [2023-02-24 16:41:41,975] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:41:42,471] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:41:42,572] {logging_mixin.py:104} INFO - [2023-02-24 16:41:42,572] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:41:42,873] {logging_mixin.py:104} INFO - [2023-02-24 16:41:42,873] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:41:42,971] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 1.090 seconds
+[2023-02-24 16:42:13,416] {scheduler_job.py:182} INFO - Started process (PID=2702) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:42:13,417] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:42:13,418] {logging_mixin.py:104} INFO - [2023-02-24 16:42:13,418] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:42:13,489] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:42:13,500] {logging_mixin.py:104} INFO - [2023-02-24 16:42:13,500] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:42:13,572] {logging_mixin.py:104} INFO - [2023-02-24 16:42:13,572] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:42:13,582] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.169 seconds
+[2023-02-24 16:42:44,164] {scheduler_job.py:182} INFO - Started process (PID=2754) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:42:44,165] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:42:44,166] {logging_mixin.py:104} INFO - [2023-02-24 16:42:44,166] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:42:44,280] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:42:44,367] {logging_mixin.py:104} INFO - [2023-02-24 16:42:44,367] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:42:44,386] {logging_mixin.py:104} INFO - [2023-02-24 16:42:44,386] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:42:44,466] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.368 seconds
+[2023-02-24 16:43:15,082] {scheduler_job.py:182} INFO - Started process (PID=2805) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:43:15,083] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:43:15,083] {logging_mixin.py:104} INFO - [2023-02-24 16:43:15,083] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:43:15,266] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:43:15,278] {logging_mixin.py:104} INFO - [2023-02-24 16:43:15,278] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:43:15,367] {logging_mixin.py:104} INFO - [2023-02-24 16:43:15,367] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:43:15,376] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.297 seconds
+[2023-02-24 16:43:45,483] {scheduler_job.py:182} INFO - Started process (PID=2847) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:43:45,485] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:43:45,485] {logging_mixin.py:104} INFO - [2023-02-24 16:43:45,485] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:43:45,591] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:43:45,670] {logging_mixin.py:104} INFO - [2023-02-24 16:43:45,670] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:43:45,689] {logging_mixin.py:104} INFO - [2023-02-24 16:43:45,689] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:43:45,772] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.291 seconds
+[2023-02-24 16:44:16,366] {scheduler_job.py:182} INFO - Started process (PID=2899) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:44:16,367] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:44:16,368] {logging_mixin.py:104} INFO - [2023-02-24 16:44:16,367] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:44:16,564] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:44:16,576] {logging_mixin.py:104} INFO - [2023-02-24 16:44:16,576] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:44:16,674] {logging_mixin.py:104} INFO - [2023-02-24 16:44:16,674] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:44:16,683] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.383 seconds
+[2023-02-24 16:44:46,792] {scheduler_job.py:182} INFO - Started process (PID=2951) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:44:46,864] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:44:46,865] {logging_mixin.py:104} INFO - [2023-02-24 16:44:46,865] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:44:46,992] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:44:47,071] {logging_mixin.py:104} INFO - [2023-02-24 16:44:47,070] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:44:47,164] {logging_mixin.py:104} INFO - [2023-02-24 16:44:47,164] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:44:47,174] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.385 seconds
+[2023-02-24 16:45:17,405] {scheduler_job.py:182} INFO - Started process (PID=3004) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:45:17,405] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:45:17,406] {logging_mixin.py:104} INFO - [2023-02-24 16:45:17,406] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:45:17,496] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:45:17,567] {logging_mixin.py:104} INFO - [2023-02-24 16:45:17,567] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:45:17,589] {logging_mixin.py:104} INFO - [2023-02-24 16:45:17,589] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:45:17,598] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.196 seconds
+[2023-02-24 16:45:47,682] {scheduler_job.py:182} INFO - Started process (PID=3055) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:45:47,683] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:45:47,683] {logging_mixin.py:104} INFO - [2023-02-24 16:45:47,683] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:45:47,715] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:45:47,772] {logging_mixin.py:104} INFO - [2023-02-24 16:45:47,772] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:45:47,793] {logging_mixin.py:104} INFO - [2023-02-24 16:45:47,793] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:45:47,801] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.123 seconds
+[2023-02-24 16:46:18,291] {scheduler_job.py:182} INFO - Started process (PID=3106) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:46:18,292] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:46:18,364] {logging_mixin.py:104} INFO - [2023-02-24 16:46:18,363] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:46:18,481] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:46:18,568] {logging_mixin.py:104} INFO - [2023-02-24 16:46:18,568] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:46:18,586] {logging_mixin.py:104} INFO - [2023-02-24 16:46:18,586] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:46:18,671] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.383 seconds
+[2023-02-24 16:46:49,072] {scheduler_job.py:182} INFO - Started process (PID=3158) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:46:49,073] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:46:49,074] {logging_mixin.py:104} INFO - [2023-02-24 16:46:49,073] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:46:49,187] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:46:49,273] {logging_mixin.py:104} INFO - [2023-02-24 16:46:49,273] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:46:49,366] {logging_mixin.py:104} INFO - [2023-02-24 16:46:49,366] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:46:49,379] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.310 seconds
+[2023-02-24 16:47:19,574] {scheduler_job.py:182} INFO - Started process (PID=3210) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:47:19,575] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:47:19,576] {logging_mixin.py:104} INFO - [2023-02-24 16:47:19,576] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:47:19,688] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:47:19,776] {logging_mixin.py:104} INFO - [2023-02-24 16:47:19,776] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:47:19,879] {logging_mixin.py:104} INFO - [2023-02-24 16:47:19,879] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:47:19,966] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.394 seconds
+[2023-02-24 16:47:50,299] {scheduler_job.py:182} INFO - Started process (PID=3252) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:47:50,301] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:47:50,302] {logging_mixin.py:104} INFO - [2023-02-24 16:47:50,302] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:47:50,402] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:47:50,475] {logging_mixin.py:104} INFO - [2023-02-24 16:47:50,475] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:47:50,498] {logging_mixin.py:104} INFO - [2023-02-24 16:47:50,498] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:47:50,568] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.272 seconds
+[2023-02-24 16:48:21,118] {scheduler_job.py:182} INFO - Started process (PID=3303) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:48:21,119] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:48:21,120] {logging_mixin.py:104} INFO - [2023-02-24 16:48:21,120] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:48:21,276] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:48:21,288] {logging_mixin.py:104} INFO - [2023-02-24 16:48:21,288] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:48:21,376] {logging_mixin.py:104} INFO - [2023-02-24 16:48:21,376] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:48:21,385] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.297 seconds
+[2023-02-24 16:48:51,701] {scheduler_job.py:182} INFO - Started process (PID=3344) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:48:51,768] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:48:51,771] {logging_mixin.py:104} INFO - [2023-02-24 16:48:51,769] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:48:52,189] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:48:52,281] {logging_mixin.py:104} INFO - [2023-02-24 16:48:52,281] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:48:52,470] {logging_mixin.py:104} INFO - [2023-02-24 16:48:52,470] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:48:52,483] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.899 seconds
+[2023-02-24 16:49:23,192] {scheduler_job.py:182} INFO - Started process (PID=3395) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:49:23,193] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:49:23,194] {logging_mixin.py:104} INFO - [2023-02-24 16:49:23,194] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:49:23,380] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:49:23,392] {logging_mixin.py:104} INFO - [2023-02-24 16:49:23,391] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:49:23,476] {logging_mixin.py:104} INFO - [2023-02-24 16:49:23,476] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:49:23,485] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.296 seconds
+[2023-02-24 16:49:53,781] {scheduler_job.py:182} INFO - Started process (PID=3447) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:49:53,794] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:49:53,795] {logging_mixin.py:104} INFO - [2023-02-24 16:49:53,795] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:49:54,065] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:49:54,085] {logging_mixin.py:104} INFO - [2023-02-24 16:49:54,085] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:49:54,175] {logging_mixin.py:104} INFO - [2023-02-24 16:49:54,175] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:49:54,185] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.409 seconds
+[2023-02-24 16:50:24,308] {scheduler_job.py:182} INFO - Started process (PID=3489) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:50:24,370] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:50:24,370] {logging_mixin.py:104} INFO - [2023-02-24 16:50:24,370] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:50:24,482] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:50:24,495] {logging_mixin.py:104} INFO - [2023-02-24 16:50:24,495] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:50:24,584] {logging_mixin.py:104} INFO - [2023-02-24 16:50:24,584] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:50:24,593] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.289 seconds
+[2023-02-24 16:50:54,865] {scheduler_job.py:182} INFO - Started process (PID=3540) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:50:54,866] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:50:54,867] {logging_mixin.py:104} INFO - [2023-02-24 16:50:54,867] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:50:55,275] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:50:55,384] {logging_mixin.py:104} INFO - [2023-02-24 16:50:55,384] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:50:55,691] {logging_mixin.py:104} INFO - [2023-02-24 16:50:55,691] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:50:55,792] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 1.003 seconds
+[2023-02-24 16:51:26,369] {scheduler_job.py:182} INFO - Started process (PID=3591) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:51:26,370] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:51:26,371] {logging_mixin.py:104} INFO - [2023-02-24 16:51:26,371] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:51:26,575] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:51:26,664] {logging_mixin.py:104} INFO - [2023-02-24 16:51:26,664] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:51:26,685] {logging_mixin.py:104} INFO - [2023-02-24 16:51:26,684] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:51:26,779] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.413 seconds
+[2023-02-24 16:51:58,491] {scheduler_job.py:182} INFO - Started process (PID=3634) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:51:58,496] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:51:58,498] {logging_mixin.py:104} INFO - [2023-02-24 16:51:58,498] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:51:58,784] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:51:58,794] {logging_mixin.py:104} INFO - [2023-02-24 16:51:58,794] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:51:58,895] {logging_mixin.py:104} INFO - [2023-02-24 16:51:58,895] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:51:58,970] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.497 seconds
+[2023-02-24 16:52:29,087] {scheduler_job.py:182} INFO - Started process (PID=3685) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:52:29,169] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:52:29,170] {logging_mixin.py:104} INFO - [2023-02-24 16:52:29,170] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:52:29,466] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:52:29,479] {logging_mixin.py:104} INFO - [2023-02-24 16:52:29,479] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:52:29,581] {logging_mixin.py:104} INFO - [2023-02-24 16:52:29,581] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:52:29,670] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.586 seconds
+[2023-02-24 16:53:02,681] {scheduler_job.py:182} INFO - Started process (PID=3735) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:53:02,683] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:53:02,683] {logging_mixin.py:104} INFO - [2023-02-24 16:53:02,683] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:53:02,982] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:53:03,076] {logging_mixin.py:104} INFO - [2023-02-24 16:53:03,076] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:53:03,177] {logging_mixin.py:104} INFO - [2023-02-24 16:53:03,176] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:53:03,268] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.590 seconds
+[2023-02-24 16:53:34,075] {scheduler_job.py:182} INFO - Started process (PID=3779) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:53:34,076] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:53:34,077] {logging_mixin.py:104} INFO - [2023-02-24 16:53:34,077] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:53:34,190] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:53:34,274] {logging_mixin.py:104} INFO - [2023-02-24 16:53:34,274] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:53:34,376] {logging_mixin.py:104} INFO - [2023-02-24 16:53:34,376] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:53:34,384] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.311 seconds
+[2023-02-24 16:54:05,185] {scheduler_job.py:182} INFO - Started process (PID=3830) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:54:05,186] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:54:05,186] {logging_mixin.py:104} INFO - [2023-02-24 16:54:05,186] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:54:05,379] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:54:05,469] {logging_mixin.py:104} INFO - [2023-02-24 16:54:05,469] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:54:05,570] {logging_mixin.py:104} INFO - [2023-02-24 16:54:05,569] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:54:05,579] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.396 seconds
+[2023-02-24 16:54:35,722] {scheduler_job.py:182} INFO - Started process (PID=3881) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:54:35,723] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:54:35,723] {logging_mixin.py:104} INFO - [2023-02-24 16:54:35,723] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:54:35,763] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:54:35,776] {logging_mixin.py:104} INFO - [2023-02-24 16:54:35,775] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:54:35,793] {logging_mixin.py:104} INFO - [2023-02-24 16:54:35,793] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:54:35,800] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.082 seconds
+[2023-02-24 16:55:06,312] {scheduler_job.py:182} INFO - Started process (PID=3933) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:55:06,386] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:55:06,387] {logging_mixin.py:104} INFO - [2023-02-24 16:55:06,387] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:55:06,491] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:55:06,567] {logging_mixin.py:104} INFO - [2023-02-24 16:55:06,567] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:55:06,588] {logging_mixin.py:104} INFO - [2023-02-24 16:55:06,588] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:55:06,601] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.295 seconds
+[2023-02-24 16:55:36,787] {scheduler_job.py:182} INFO - Started process (PID=3974) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:55:36,789] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:55:36,789] {logging_mixin.py:104} INFO - [2023-02-24 16:55:36,789] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:55:36,981] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:55:37,069] {logging_mixin.py:104} INFO - [2023-02-24 16:55:37,069] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:55:37,183] {logging_mixin.py:104} INFO - [2023-02-24 16:55:37,183] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:55:37,269] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.485 seconds
+[2023-02-24 16:56:07,522] {scheduler_job.py:182} INFO - Started process (PID=4026) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:56:07,523] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:56:07,524] {logging_mixin.py:104} INFO - [2023-02-24 16:56:07,523] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:56:07,608] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:56:07,676] {logging_mixin.py:104} INFO - [2023-02-24 16:56:07,676] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:56:07,698] {logging_mixin.py:104} INFO - [2023-02-24 16:56:07,698] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:56:07,775] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.256 seconds
+[2023-02-24 16:56:38,483] {scheduler_job.py:182} INFO - Started process (PID=4077) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:56:38,484] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:56:38,485] {logging_mixin.py:104} INFO - [2023-02-24 16:56:38,485] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:56:38,689] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:56:38,774] {logging_mixin.py:104} INFO - [2023-02-24 16:56:38,774] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:56:38,870] {logging_mixin.py:104} INFO - [2023-02-24 16:56:38,870] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:56:38,968] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.488 seconds
+[2023-02-24 16:57:09,068] {scheduler_job.py:182} INFO - Started process (PID=4118) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:57:09,069] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:57:09,073] {logging_mixin.py:104} INFO - [2023-02-24 16:57:09,073] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:57:09,295] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:57:09,309] {logging_mixin.py:104} INFO - [2023-02-24 16:57:09,309] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:57:09,384] {logging_mixin.py:104} INFO - [2023-02-24 16:57:09,384] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:57:09,398] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.370 seconds
+[2023-02-24 16:57:39,588] {scheduler_job.py:182} INFO - Started process (PID=4169) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:57:39,589] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:57:39,590] {logging_mixin.py:104} INFO - [2023-02-24 16:57:39,590] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:57:39,789] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:57:39,877] {logging_mixin.py:104} INFO - [2023-02-24 16:57:39,877] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:57:39,983] {logging_mixin.py:104} INFO - [2023-02-24 16:57:39,983] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:57:39,993] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.413 seconds
+[2023-02-24 16:58:10,397] {scheduler_job.py:182} INFO - Started process (PID=4212) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:58:10,399] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:58:10,400] {logging_mixin.py:104} INFO - [2023-02-24 16:58:10,399] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:58:10,497] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:58:10,509] {logging_mixin.py:104} INFO - [2023-02-24 16:58:10,509] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:58:10,583] {logging_mixin.py:104} INFO - [2023-02-24 16:58:10,583] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:58:10,599] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.206 seconds
+[2023-02-24 16:58:40,969] {scheduler_job.py:182} INFO - Started process (PID=4264) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:58:40,970] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:58:40,971] {logging_mixin.py:104} INFO - [2023-02-24 16:58:40,971] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:58:41,096] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:58:41,181] {logging_mixin.py:104} INFO - [2023-02-24 16:58:41,180] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:58:41,278] {logging_mixin.py:104} INFO - [2023-02-24 16:58:41,277] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:58:41,364] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.399 seconds
+[2023-02-24 16:59:11,698] {scheduler_job.py:182} INFO - Started process (PID=4307) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:59:11,700] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:59:11,700] {logging_mixin.py:104} INFO - [2023-02-24 16:59:11,700] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:59:11,867] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:59:11,879] {logging_mixin.py:104} INFO - [2023-02-24 16:59:11,879] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:59:11,965] {logging_mixin.py:104} INFO - [2023-02-24 16:59:11,965] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:59:11,976] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.282 seconds
+[2023-02-24 16:59:42,571] {scheduler_job.py:182} INFO - Started process (PID=4357) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:59:42,573] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 16:59:42,574] {logging_mixin.py:104} INFO - [2023-02-24 16:59:42,574] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:59:42,808] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 16:59:42,967] {logging_mixin.py:104} INFO - [2023-02-24 16:59:42,967] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 16:59:43,083] {logging_mixin.py:104} INFO - [2023-02-24 16:59:43,083] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 16:59:43,167] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.600 seconds
+[2023-02-24 17:00:14,167] {scheduler_job.py:182} INFO - Started process (PID=4397) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:00:14,170] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:00:14,171] {logging_mixin.py:104} INFO - [2023-02-24 17:00:14,171] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:00:14,387] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:00:14,481] {logging_mixin.py:104} INFO - [2023-02-24 17:00:14,481] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:00:14,578] {logging_mixin.py:104} INFO - [2023-02-24 17:00:14,577] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:00:14,588] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.492 seconds
+[2023-02-24 17:00:45,474] {scheduler_job.py:182} INFO - Started process (PID=4448) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:00:45,475] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:00:45,476] {logging_mixin.py:104} INFO - [2023-02-24 17:00:45,476] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:00:45,672] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:00:45,772] {logging_mixin.py:104} INFO - [2023-02-24 17:00:45,771] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:00:46,072] {logging_mixin.py:104} INFO - [2023-02-24 17:00:46,072] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:00:46,265] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.794 seconds
+[2023-02-24 17:01:16,792] {scheduler_job.py:182} INFO - Started process (PID=4499) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:01:16,873] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:01:16,874] {logging_mixin.py:104} INFO - [2023-02-24 17:01:16,874] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:01:17,189] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:01:17,373] {logging_mixin.py:104} INFO - [2023-02-24 17:01:17,373] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:01:17,495] {logging_mixin.py:104} INFO - [2023-02-24 17:01:17,495] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:01:17,587] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.892 seconds
+[2023-02-24 17:01:48,377] {scheduler_job.py:182} INFO - Started process (PID=4540) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:01:48,378] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:01:48,379] {logging_mixin.py:104} INFO - [2023-02-24 17:01:48,379] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:01:49,077] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:01:49,279] {logging_mixin.py:104} INFO - [2023-02-24 17:01:49,279] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:01:49,479] {logging_mixin.py:104} INFO - [2023-02-24 17:01:49,479] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:01:49,573] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 1.200 seconds
+[2023-02-24 17:02:20,065] {scheduler_job.py:182} INFO - Started process (PID=4592) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:02:20,067] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:02:20,067] {logging_mixin.py:104} INFO - [2023-02-24 17:02:20,067] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:02:20,185] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:02:20,269] {logging_mixin.py:104} INFO - [2023-02-24 17:02:20,269] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:02:20,364] {logging_mixin.py:104} INFO - [2023-02-24 17:02:20,364] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:02:20,375] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.380 seconds
+[2023-02-24 17:02:50,589] {scheduler_job.py:182} INFO - Started process (PID=4633) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:02:50,590] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:02:50,591] {logging_mixin.py:104} INFO - [2023-02-24 17:02:50,591] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:02:50,768] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:02:50,780] {logging_mixin.py:104} INFO - [2023-02-24 17:02:50,780] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:02:50,873] {logging_mixin.py:104} INFO - [2023-02-24 17:02:50,872] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:02:50,882] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.296 seconds
+[2023-02-24 17:03:21,467] {scheduler_job.py:182} INFO - Started process (PID=4685) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:03:21,468] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:03:21,469] {logging_mixin.py:104} INFO - [2023-02-24 17:03:21,469] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:03:21,665] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:03:21,773] {logging_mixin.py:104} INFO - [2023-02-24 17:03:21,772] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:03:22,085] {logging_mixin.py:104} INFO - [2023-02-24 17:03:22,085] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:03:22,176] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.780 seconds
+[2023-02-24 17:03:52,580] {scheduler_job.py:182} INFO - Started process (PID=4737) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:03:52,589] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:03:52,590] {logging_mixin.py:104} INFO - [2023-02-24 17:03:52,590] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:03:52,718] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:03:52,737] {logging_mixin.py:104} INFO - [2023-02-24 17:03:52,737] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:03:52,763] {logging_mixin.py:104} INFO - [2023-02-24 17:03:52,763] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:03:52,771] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.203 seconds
+[2023-02-24 17:04:23,069] {scheduler_job.py:182} INFO - Started process (PID=4788) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:04:23,070] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:04:23,071] {logging_mixin.py:104} INFO - [2023-02-24 17:04:23,071] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:04:23,196] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:04:23,276] {logging_mixin.py:104} INFO - [2023-02-24 17:04:23,276] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:04:23,297] {logging_mixin.py:104} INFO - [2023-02-24 17:04:23,297] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:04:23,373] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.307 seconds
+[2023-02-24 17:04:53,586] {scheduler_job.py:182} INFO - Started process (PID=4830) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:04:53,588] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:04:53,589] {logging_mixin.py:104} INFO - [2023-02-24 17:04:53,589] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:04:53,783] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:04:53,874] {logging_mixin.py:104} INFO - [2023-02-24 17:04:53,874] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:04:53,894] {logging_mixin.py:104} INFO - [2023-02-24 17:04:53,894] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:04:53,971] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.392 seconds
+[2023-02-24 17:05:24,290] {scheduler_job.py:182} INFO - Started process (PID=4882) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:05:24,291] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:05:24,292] {logging_mixin.py:104} INFO - [2023-02-24 17:05:24,292] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:05:24,577] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:05:24,596] {logging_mixin.py:104} INFO - [2023-02-24 17:05:24,595] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:05:24,689] {logging_mixin.py:104} INFO - [2023-02-24 17:05:24,689] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:05:24,769] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.487 seconds
+[2023-02-24 17:05:55,270] {scheduler_job.py:182} INFO - Started process (PID=4925) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:05:55,271] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:05:55,272] {logging_mixin.py:104} INFO - [2023-02-24 17:05:55,272] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:05:55,473] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:05:55,487] {logging_mixin.py:104} INFO - [2023-02-24 17:05:55,487] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:05:55,664] {logging_mixin.py:104} INFO - [2023-02-24 17:05:55,664] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:05:55,682] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.494 seconds
+[2023-02-24 17:06:26,075] {scheduler_job.py:182} INFO - Started process (PID=4976) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:06:26,076] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:06:26,077] {logging_mixin.py:104} INFO - [2023-02-24 17:06:26,077] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:06:26,190] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:06:26,275] {logging_mixin.py:104} INFO - [2023-02-24 17:06:26,274] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:06:26,369] {logging_mixin.py:104} INFO - [2023-02-24 17:06:26,369] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:06:26,378] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.306 seconds
+[2023-02-24 17:08:08,401] {scheduler_job.py:182} INFO - Started process (PID=87) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:08:08,402] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:08:08,402] {logging_mixin.py:104} INFO - [2023-02-24 17:08:08,402] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:08:08,582] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:08:08,592] {logging_mixin.py:104} INFO - [2023-02-24 17:08:08,591] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:08:08,674] {logging_mixin.py:104} INFO - [2023-02-24 17:08:08,673] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:08:08,682] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.284 seconds
+[2023-02-24 17:08:39,976] {scheduler_job.py:182} INFO - Started process (PID=139) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:08:40,070] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:08:40,076] {logging_mixin.py:104} INFO - [2023-02-24 17:08:40,076] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:08:41,272] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:08:41,368] {logging_mixin.py:104} INFO - [2023-02-24 17:08:41,368] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:08:41,583] {logging_mixin.py:104} INFO - [2023-02-24 17:08:41,583] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:08:41,772] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 1.993 seconds
+[2023-02-24 17:09:12,681] {scheduler_job.py:182} INFO - Started process (PID=191) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:09:12,683] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:09:12,683] {logging_mixin.py:104} INFO - [2023-02-24 17:09:12,683] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:09:12,875] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:09:12,964] {logging_mixin.py:104} INFO - [2023-02-24 17:09:12,964] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:09:13,069] {logging_mixin.py:104} INFO - [2023-02-24 17:09:13,069] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:09:13,079] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.401 seconds
+[2023-02-24 17:09:43,963] {scheduler_job.py:182} INFO - Started process (PID=240) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:09:43,965] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:09:43,965] {logging_mixin.py:104} INFO - [2023-02-24 17:09:43,965] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:09:44,275] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:09:44,368] {logging_mixin.py:104} INFO - [2023-02-24 17:09:44,368] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:09:44,391] {logging_mixin.py:104} INFO - [2023-02-24 17:09:44,391] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:09:44,474] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.598 seconds
+[2023-02-24 17:10:15,205] {scheduler_job.py:182} INFO - Started process (PID=285) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:10:15,266] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:10:15,267] {logging_mixin.py:104} INFO - [2023-02-24 17:10:15,266] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:10:15,374] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:10:15,385] {logging_mixin.py:104} INFO - [2023-02-24 17:10:15,385] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:10:15,471] {logging_mixin.py:104} INFO - [2023-02-24 17:10:15,471] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:10:15,479] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.277 seconds
+[2023-02-24 17:10:46,382] {scheduler_job.py:182} INFO - Started process (PID=337) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:10:46,383] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:10:46,384] {logging_mixin.py:104} INFO - [2023-02-24 17:10:46,383] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:10:46,683] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:10:46,776] {logging_mixin.py:104} INFO - [2023-02-24 17:10:46,776] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:10:46,877] {logging_mixin.py:104} INFO - [2023-02-24 17:10:46,877] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:10:46,968] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.589 seconds
+[2023-02-24 17:11:17,080] {scheduler_job.py:182} INFO - Started process (PID=379) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:11:17,086] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:11:17,086] {logging_mixin.py:104} INFO - [2023-02-24 17:11:17,086] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:11:17,197] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:11:17,208] {logging_mixin.py:104} INFO - [2023-02-24 17:11:17,208] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:11:17,274] {logging_mixin.py:104} INFO - [2023-02-24 17:11:17,274] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:11:17,286] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.209 seconds
+[2023-02-24 17:11:47,981] {scheduler_job.py:182} INFO - Started process (PID=431) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:11:47,982] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:11:47,983] {logging_mixin.py:104} INFO - [2023-02-24 17:11:47,983] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:11:48,179] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:11:48,271] {logging_mixin.py:104} INFO - [2023-02-24 17:11:48,271] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:11:48,366] {logging_mixin.py:104} INFO - [2023-02-24 17:11:48,366] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:11:48,376] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.398 seconds
+[2023-02-24 17:12:19,075] {scheduler_job.py:182} INFO - Started process (PID=473) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:12:19,083] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:12:19,084] {logging_mixin.py:104} INFO - [2023-02-24 17:12:19,084] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:12:19,289] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:12:19,377] {logging_mixin.py:104} INFO - [2023-02-24 17:12:19,377] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:12:19,570] {logging_mixin.py:104} INFO - [2023-02-24 17:12:19,570] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:12:19,584] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.579 seconds
+[2023-02-24 17:12:50,002] {scheduler_job.py:182} INFO - Started process (PID=525) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:12:50,065] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:12:50,066] {logging_mixin.py:104} INFO - [2023-02-24 17:12:50,066] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:12:50,483] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:12:50,589] {logging_mixin.py:104} INFO - [2023-02-24 17:12:50,589] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:12:50,777] {logging_mixin.py:104} INFO - [2023-02-24 17:12:50,777] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:12:50,788] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.790 seconds
+[2023-02-24 17:13:21,781] {scheduler_job.py:182} INFO - Started process (PID=576) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:13:21,782] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:13:21,783] {logging_mixin.py:104} INFO - [2023-02-24 17:13:21,783] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:13:21,892] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:13:21,976] {logging_mixin.py:104} INFO - [2023-02-24 17:13:21,976] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:13:22,073] {logging_mixin.py:104} INFO - [2023-02-24 17:13:22,073] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:13:22,084] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.306 seconds
+[2023-02-24 17:13:52,204] {scheduler_job.py:182} INFO - Started process (PID=628) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:13:52,205] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:13:52,206] {logging_mixin.py:104} INFO - [2023-02-24 17:13:52,206] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:13:52,281] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:13:52,293] {logging_mixin.py:104} INFO - [2023-02-24 17:13:52,293] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:13:52,312] {logging_mixin.py:104} INFO - [2023-02-24 17:13:52,312] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:13:52,321] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.119 seconds
+[2023-02-24 17:14:22,769] {scheduler_job.py:182} INFO - Started process (PID=681) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:14:22,771] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:14:22,772] {logging_mixin.py:104} INFO - [2023-02-24 17:14:22,771] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:14:22,866] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:14:22,879] {logging_mixin.py:104} INFO - [2023-02-24 17:14:22,879] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:14:22,969] {logging_mixin.py:104} INFO - [2023-02-24 17:14:22,969] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:14:22,980] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.214 seconds
+[2023-02-24 17:14:53,351] {scheduler_job.py:182} INFO - Started process (PID=733) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:14:53,354] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:14:53,354] {logging_mixin.py:104} INFO - [2023-02-24 17:14:53,354] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:14:53,402] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:14:53,415] {logging_mixin.py:104} INFO - [2023-02-24 17:14:53,415] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:14:53,440] {logging_mixin.py:104} INFO - [2023-02-24 17:14:53,439] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:14:53,472] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.124 seconds
+[2023-02-24 17:15:23,803] {scheduler_job.py:182} INFO - Started process (PID=785) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:15:23,805] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:15:23,806] {logging_mixin.py:104} INFO - [2023-02-24 17:15:23,806] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:15:23,888] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:15:23,900] {logging_mixin.py:104} INFO - [2023-02-24 17:15:23,900] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:15:23,917] {logging_mixin.py:104} INFO - [2023-02-24 17:15:23,917] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:15:23,926] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.126 seconds
+[2023-02-24 17:15:54,087] {scheduler_job.py:182} INFO - Started process (PID=837) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:15:54,098] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:15:54,099] {logging_mixin.py:104} INFO - [2023-02-24 17:15:54,098] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:15:54,184] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:15:54,216] {logging_mixin.py:104} INFO - [2023-02-24 17:15:54,215] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:15:54,279] {logging_mixin.py:104} INFO - [2023-02-24 17:15:54,279] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:15:54,290] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.210 seconds
+[2023-02-24 17:16:24,446] {scheduler_job.py:182} INFO - Started process (PID=890) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:16:24,466] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:16:24,466] {logging_mixin.py:104} INFO - [2023-02-24 17:16:24,466] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:16:24,589] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:16:24,604] {logging_mixin.py:104} INFO - [2023-02-24 17:16:24,604] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:16:24,677] {logging_mixin.py:104} INFO - [2023-02-24 17:16:24,677] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:16:24,686] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.255 seconds
+[2023-02-24 17:16:55,008] {scheduler_job.py:182} INFO - Started process (PID=942) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:16:55,010] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:16:55,011] {logging_mixin.py:104} INFO - [2023-02-24 17:16:55,011] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:16:55,067] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:16:55,080] {logging_mixin.py:104} INFO - [2023-02-24 17:16:55,079] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:16:55,107] {logging_mixin.py:104} INFO - [2023-02-24 17:16:55,107] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:16:55,122] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.137 seconds
+[2023-02-24 17:17:25,768] {scheduler_job.py:182} INFO - Started process (PID=996) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:17:25,770] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:17:25,771] {logging_mixin.py:104} INFO - [2023-02-24 17:17:25,771] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:17:25,876] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:17:25,890] {logging_mixin.py:104} INFO - [2023-02-24 17:17:25,890] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:17:25,966] {logging_mixin.py:104} INFO - [2023-02-24 17:17:25,966] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:17:25,977] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.213 seconds
+[2023-02-24 17:17:56,167] {scheduler_job.py:182} INFO - Started process (PID=1047) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:17:56,168] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:17:56,170] {logging_mixin.py:104} INFO - [2023-02-24 17:17:56,169] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:17:56,289] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:17:56,302] {logging_mixin.py:104} INFO - [2023-02-24 17:17:56,302] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:17:56,366] {logging_mixin.py:104} INFO - [2023-02-24 17:17:56,366] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:17:56,376] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.212 seconds
+[2023-02-24 17:18:26,885] {scheduler_job.py:182} INFO - Started process (PID=1099) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:18:26,886] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:18:26,887] {logging_mixin.py:104} INFO - [2023-02-24 17:18:26,886] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:18:27,080] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:18:27,171] {logging_mixin.py:104} INFO - [2023-02-24 17:18:27,171] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:18:27,193] {logging_mixin.py:104} INFO - [2023-02-24 17:18:27,193] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:18:27,276] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.394 seconds
+[2023-02-24 17:18:58,178] {scheduler_job.py:182} INFO - Started process (PID=1151) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:18:58,183] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:18:58,185] {logging_mixin.py:104} INFO - [2023-02-24 17:18:58,185] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:18:58,406] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:18:58,489] {logging_mixin.py:104} INFO - [2023-02-24 17:18:58,489] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:18:58,566] {logging_mixin.py:104} INFO - [2023-02-24 17:18:58,565] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:18:58,576] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.461 seconds
+[2023-02-24 17:19:28,884] {scheduler_job.py:182} INFO - Started process (PID=1203) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:19:28,885] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:19:28,886] {logging_mixin.py:104} INFO - [2023-02-24 17:19:28,885] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:19:29,075] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:19:29,372] {logging_mixin.py:104} INFO - [2023-02-24 17:19:29,372] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:19:29,467] {logging_mixin.py:104} INFO - [2023-02-24 17:19:29,467] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:19:29,477] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.597 seconds
+[2023-02-24 17:20:00,208] {scheduler_job.py:182} INFO - Started process (PID=1255) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:20:00,209] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:20:00,210] {logging_mixin.py:104} INFO - [2023-02-24 17:20:00,210] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:20:00,296] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:20:00,370] {logging_mixin.py:104} INFO - [2023-02-24 17:20:00,370] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:20:00,388] {logging_mixin.py:104} INFO - [2023-02-24 17:20:00,388] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:20:00,395] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.189 seconds
+[2023-02-24 17:20:30,806] {scheduler_job.py:182} INFO - Started process (PID=1306) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:20:30,808] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:20:30,809] {logging_mixin.py:104} INFO - [2023-02-24 17:20:30,809] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:20:30,896] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:20:30,973] {logging_mixin.py:104} INFO - [2023-02-24 17:20:30,972] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:20:30,993] {logging_mixin.py:104} INFO - [2023-02-24 17:20:30,993] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:20:31,066] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.263 seconds
+[2023-02-24 17:21:01,411] {scheduler_job.py:182} INFO - Started process (PID=1367) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:21:01,412] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:21:01,412] {logging_mixin.py:104} INFO - [2023-02-24 17:21:01,412] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:21:01,451] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:21:01,464] {logging_mixin.py:104} INFO - [2023-02-24 17:21:01,464] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:21:01,480] {logging_mixin.py:104} INFO - [2023-02-24 17:21:01,480] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:21:01,488] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.080 seconds
+[2023-02-24 17:21:32,286] {scheduler_job.py:182} INFO - Started process (PID=1409) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:21:32,364] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:21:32,365] {logging_mixin.py:104} INFO - [2023-02-24 17:21:32,365] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:21:32,587] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:21:32,675] {logging_mixin.py:104} INFO - [2023-02-24 17:21:32,675] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:21:32,869] {logging_mixin.py:104} INFO - [2023-02-24 17:21:32,869] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:21:32,882] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.599 seconds
+[2023-02-24 17:22:03,423] {scheduler_job.py:182} INFO - Started process (PID=1461) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:22:03,424] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:22:03,464] {logging_mixin.py:104} INFO - [2023-02-24 17:22:03,464] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:22:03,504] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:22:03,568] {logging_mixin.py:104} INFO - [2023-02-24 17:22:03,568] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:22:03,586] {logging_mixin.py:104} INFO - [2023-02-24 17:22:03,586] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:22:03,595] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.174 seconds
+[2023-02-24 17:22:33,995] {scheduler_job.py:182} INFO - Started process (PID=1512) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:22:33,996] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:22:33,997] {logging_mixin.py:104} INFO - [2023-02-24 17:22:33,997] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:22:34,087] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:22:34,096] {logging_mixin.py:104} INFO - [2023-02-24 17:22:34,095] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:22:34,167] {logging_mixin.py:104} INFO - [2023-02-24 17:22:34,167] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:22:34,175] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.182 seconds
+[2023-02-24 17:23:04,565] {scheduler_job.py:182} INFO - Started process (PID=1560) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:23:04,566] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:23:04,567] {logging_mixin.py:104} INFO - [2023-02-24 17:23:04,567] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:23:04,611] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:23:04,674] {logging_mixin.py:104} INFO - [2023-02-24 17:23:04,674] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:23:04,693] {logging_mixin.py:104} INFO - [2023-02-24 17:23:04,693] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:23:04,701] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.188 seconds
+[2023-02-24 17:23:34,969] {scheduler_job.py:182} INFO - Started process (PID=1619) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:23:34,970] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:23:34,971] {logging_mixin.py:104} INFO - [2023-02-24 17:23:34,971] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:23:35,087] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:23:35,168] {logging_mixin.py:104} INFO - [2023-02-24 17:23:35,168] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:23:35,186] {logging_mixin.py:104} INFO - [2023-02-24 17:23:35,186] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:23:35,265] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.299 seconds
+[2023-02-24 17:24:05,739] {scheduler_job.py:182} INFO - Started process (PID=1674) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:24:05,740] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:24:05,741] {logging_mixin.py:104} INFO - [2023-02-24 17:24:05,741] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:24:05,795] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:24:05,869] {logging_mixin.py:104} INFO - [2023-02-24 17:24:05,869] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:24:05,886] {logging_mixin.py:104} INFO - [2023-02-24 17:24:05,885] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:24:05,893] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.156 seconds
+[2023-02-24 17:24:36,775] {scheduler_job.py:182} INFO - Started process (PID=1726) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:24:36,776] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:24:36,777] {logging_mixin.py:104} INFO - [2023-02-24 17:24:36,777] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:24:36,865] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:24:36,875] {logging_mixin.py:104} INFO - [2023-02-24 17:24:36,875] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:24:36,892] {logging_mixin.py:104} INFO - [2023-02-24 17:24:36,892] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:24:36,898] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.125 seconds
+[2023-02-24 17:25:07,055] {scheduler_job.py:182} INFO - Started process (PID=1778) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:25:07,057] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:25:07,058] {logging_mixin.py:104} INFO - [2023-02-24 17:25:07,058] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:25:07,088] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:25:07,096] {logging_mixin.py:104} INFO - [2023-02-24 17:25:07,096] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:25:07,109] {logging_mixin.py:104} INFO - [2023-02-24 17:25:07,109] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:25:07,117] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.065 seconds
+[2023-02-24 17:25:37,607] {scheduler_job.py:182} INFO - Started process (PID=1830) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:25:37,610] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:25:37,610] {logging_mixin.py:104} INFO - [2023-02-24 17:25:37,610] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:25:37,643] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:25:37,667] {logging_mixin.py:104} INFO - [2023-02-24 17:25:37,667] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:25:37,682] {logging_mixin.py:104} INFO - [2023-02-24 17:25:37,682] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:25:37,689] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.084 seconds
+[2023-02-24 17:26:08,320] {scheduler_job.py:182} INFO - Started process (PID=1892) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:26:08,321] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:26:08,322] {logging_mixin.py:104} INFO - [2023-02-24 17:26:08,322] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:26:08,355] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:26:08,372] {logging_mixin.py:104} INFO - [2023-02-24 17:26:08,372] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:26:08,388] {logging_mixin.py:104} INFO - [2023-02-24 17:26:08,387] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:26:08,394] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.076 seconds
+[2023-02-24 17:26:38,543] {scheduler_job.py:182} INFO - Started process (PID=1944) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:26:38,544] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:26:38,544] {logging_mixin.py:104} INFO - [2023-02-24 17:26:38,544] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:26:38,593] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:26:38,602] {logging_mixin.py:104} INFO - [2023-02-24 17:26:38,602] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:26:38,668] {logging_mixin.py:104} INFO - [2023-02-24 17:26:38,668] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:26:38,675] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.135 seconds
+[2023-02-24 17:27:09,378] {scheduler_job.py:182} INFO - Started process (PID=2006) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:27:09,379] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:27:09,380] {logging_mixin.py:104} INFO - [2023-02-24 17:27:09,380] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:27:09,484] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:27:09,494] {logging_mixin.py:104} INFO - [2023-02-24 17:27:09,494] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:27:09,579] {logging_mixin.py:104} INFO - [2023-02-24 17:27:09,578] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:27:09,586] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.211 seconds
+[2023-02-24 17:27:39,774] {scheduler_job.py:182} INFO - Started process (PID=2059) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:27:39,776] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:27:39,778] {logging_mixin.py:104} INFO - [2023-02-24 17:27:39,778] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:27:40,169] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:27:40,183] {logging_mixin.py:104} INFO - [2023-02-24 17:27:40,183] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:27:40,285] {logging_mixin.py:104} INFO - [2023-02-24 17:27:40,285] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:27:40,370] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.604 seconds
+[2023-02-24 17:28:10,822] {scheduler_job.py:182} INFO - Started process (PID=2112) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:28:10,823] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:28:10,824] {logging_mixin.py:104} INFO - [2023-02-24 17:28:10,824] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:28:10,885] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:28:10,897] {logging_mixin.py:104} INFO - [2023-02-24 17:28:10,897] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:28:10,917] {logging_mixin.py:104} INFO - [2023-02-24 17:28:10,916] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:28:10,969] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.149 seconds
+[2023-02-24 17:28:41,235] {scheduler_job.py:182} INFO - Started process (PID=2163) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:28:41,236] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:28:41,237] {logging_mixin.py:104} INFO - [2023-02-24 17:28:41,237] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:28:41,304] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:28:41,317] {logging_mixin.py:104} INFO - [2023-02-24 17:28:41,317] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:28:41,384] {logging_mixin.py:104} INFO - [2023-02-24 17:28:41,384] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:28:41,395] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.168 seconds
+[2023-02-24 17:29:11,726] {scheduler_job.py:182} INFO - Started process (PID=2214) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:29:11,727] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:29:11,727] {logging_mixin.py:104} INFO - [2023-02-24 17:29:11,727] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:29:11,804] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:29:11,876] {logging_mixin.py:104} INFO - [2023-02-24 17:29:11,876] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:29:11,971] {logging_mixin.py:104} INFO - [2023-02-24 17:29:11,970] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:29:12,066] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.344 seconds
+[2023-02-24 17:29:42,432] {scheduler_job.py:182} INFO - Started process (PID=2266) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:29:42,433] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:29:42,434] {logging_mixin.py:104} INFO - [2023-02-24 17:29:42,434] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:29:42,495] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:29:42,508] {logging_mixin.py:104} INFO - [2023-02-24 17:29:42,507] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:29:42,592] {logging_mixin.py:104} INFO - [2023-02-24 17:29:42,592] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:29:42,664] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.235 seconds
+[2023-02-24 17:30:12,820] {scheduler_job.py:182} INFO - Started process (PID=2325) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:30:12,821] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:30:12,824] {logging_mixin.py:104} INFO - [2023-02-24 17:30:12,824] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:30:12,967] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:30:12,986] {logging_mixin.py:104} INFO - [2023-02-24 17:30:12,985] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:30:13,067] {logging_mixin.py:104} INFO - [2023-02-24 17:30:13,067] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:30:13,080] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.263 seconds
+[2023-02-24 17:30:43,909] {scheduler_job.py:182} INFO - Started process (PID=2369) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:30:43,910] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:30:43,911] {logging_mixin.py:104} INFO - [2023-02-24 17:30:43,910] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:30:43,989] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:30:44,001] {logging_mixin.py:104} INFO - [2023-02-24 17:30:44,001] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:30:44,068] {logging_mixin.py:104} INFO - [2023-02-24 17:30:44,068] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:30:44,077] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.172 seconds
+[2023-02-24 17:31:15,187] {scheduler_job.py:182} INFO - Started process (PID=2421) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:31:15,269] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:31:15,277] {logging_mixin.py:104} INFO - [2023-02-24 17:31:15,274] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:31:15,784] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:31:15,883] {logging_mixin.py:104} INFO - [2023-02-24 17:31:15,883] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:31:16,274] {logging_mixin.py:104} INFO - [2023-02-24 17:31:16,274] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:31:16,377] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 1.390 seconds
+[2023-02-24 17:31:46,667] {scheduler_job.py:182} INFO - Started process (PID=2472) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:31:46,669] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:31:46,670] {logging_mixin.py:104} INFO - [2023-02-24 17:31:46,670] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:31:48,672] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:31:48,780] {logging_mixin.py:104} INFO - [2023-02-24 17:31:48,780] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:31:48,967] {logging_mixin.py:104} INFO - [2023-02-24 17:31:48,967] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:31:48,977] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 2.389 seconds
+[2023-02-24 17:32:19,891] {scheduler_job.py:182} INFO - Started process (PID=2524) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:32:19,983] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:32:19,983] {logging_mixin.py:104} INFO - [2023-02-24 17:32:19,983] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:32:20,689] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:32:20,700] {logging_mixin.py:104} INFO - [2023-02-24 17:32:20,700] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:32:20,873] {logging_mixin.py:104} INFO - [2023-02-24 17:32:20,873] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:32:20,896] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 1.120 seconds
+[2023-02-24 17:32:51,498] {scheduler_job.py:182} INFO - Started process (PID=2576) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:32:51,571] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:32:51,587] {logging_mixin.py:104} INFO - [2023-02-24 17:32:51,581] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:32:52,977] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:32:53,366] {logging_mixin.py:104} INFO - [2023-02-24 17:32:53,366] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:32:53,387] {logging_mixin.py:104} INFO - [2023-02-24 17:32:53,387] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:32:53,471] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 2.191 seconds
+[2023-02-24 17:33:24,482] {scheduler_job.py:182} INFO - Started process (PID=2625) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:33:24,483] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:33:24,574] {logging_mixin.py:104} INFO - [2023-02-24 17:33:24,574] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:33:25,891] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:33:26,171] {logging_mixin.py:104} INFO - [2023-02-24 17:33:26,170] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:33:26,568] {logging_mixin.py:104} INFO - [2023-02-24 17:33:26,568] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:33:26,682] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 2.418 seconds
+[2023-02-24 17:33:57,574] {scheduler_job.py:182} INFO - Started process (PID=2679) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:33:57,577] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:33:57,579] {logging_mixin.py:104} INFO - [2023-02-24 17:33:57,578] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:33:57,972] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:33:58,071] {logging_mixin.py:104} INFO - [2023-02-24 17:33:58,070] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:33:58,187] {logging_mixin.py:104} INFO - [2023-02-24 17:33:58,186] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:33:58,278] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.802 seconds
+[2023-02-24 17:35:51,470] {scheduler_job.py:182} INFO - Started process (PID=96) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:35:51,471] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:35:51,471] {logging_mixin.py:104} INFO - [2023-02-24 17:35:51,471] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:35:51,595] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:35:51,765] {logging_mixin.py:104} INFO - [2023-02-24 17:35:51,764] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:35:51,785] {logging_mixin.py:104} INFO - [2023-02-24 17:35:51,785] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:35:51,874] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.407 seconds
+[2023-02-24 17:36:22,085] {scheduler_job.py:182} INFO - Started process (PID=148) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:36:22,090] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:36:22,090] {logging_mixin.py:104} INFO - [2023-02-24 17:36:22,090] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:36:22,471] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:36:22,483] {logging_mixin.py:104} INFO - [2023-02-24 17:36:22,483] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:36:22,517] {logging_mixin.py:104} INFO - [2023-02-24 17:36:22,517] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:36:22,592] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.520 seconds
+[2023-02-24 17:36:53,391] {scheduler_job.py:182} INFO - Started process (PID=198) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:36:53,393] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:36:53,393] {logging_mixin.py:104} INFO - [2023-02-24 17:36:53,393] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:36:53,575] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:36:53,586] {logging_mixin.py:104} INFO - [2023-02-24 17:36:53,585] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:36:53,674] {logging_mixin.py:104} INFO - [2023-02-24 17:36:53,674] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:36:53,683] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.294 seconds
+[2023-02-24 17:37:24,419] {scheduler_job.py:182} INFO - Started process (PID=241) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:37:24,421] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:37:24,421] {logging_mixin.py:104} INFO - [2023-02-24 17:37:24,421] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:37:24,598] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:37:24,673] {logging_mixin.py:104} INFO - [2023-02-24 17:37:24,673] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:37:24,692] {logging_mixin.py:104} INFO - [2023-02-24 17:37:24,692] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:37:24,703] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.287 seconds
+[2023-02-24 17:37:55,582] {scheduler_job.py:182} INFO - Started process (PID=293) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:37:55,583] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:37:55,666] {logging_mixin.py:104} INFO - [2023-02-24 17:37:55,665] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:37:55,977] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:37:56,070] {logging_mixin.py:104} INFO - [2023-02-24 17:37:56,070] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:37:56,174] {logging_mixin.py:104} INFO - [2023-02-24 17:37:56,174] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:37:56,271] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.698 seconds
+[2023-02-24 17:38:26,900] {scheduler_job.py:182} INFO - Started process (PID=342) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:38:26,967] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:38:26,968] {logging_mixin.py:104} INFO - [2023-02-24 17:38:26,968] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:38:27,374] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:38:27,474] {logging_mixin.py:104} INFO - [2023-02-24 17:38:27,474] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:38:27,576] {logging_mixin.py:104} INFO - [2023-02-24 17:38:27,575] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:38:27,765] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.894 seconds
+[2023-02-24 17:38:58,588] {scheduler_job.py:182} INFO - Started process (PID=386) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:38:58,589] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:38:58,590] {logging_mixin.py:104} INFO - [2023-02-24 17:38:58,590] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:38:58,786] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:38:58,873] {logging_mixin.py:104} INFO - [2023-02-24 17:38:58,873] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:38:58,972] {logging_mixin.py:104} INFO - [2023-02-24 17:38:58,972] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:38:58,981] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.396 seconds
+[2023-02-24 17:39:29,970] {scheduler_job.py:182} INFO - Started process (PID=438) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:39:29,971] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:39:29,972] {logging_mixin.py:104} INFO - [2023-02-24 17:39:29,972] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:39:30,010] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:39:30,071] {logging_mixin.py:104} INFO - [2023-02-24 17:39:30,071] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:39:30,087] {logging_mixin.py:104} INFO - [2023-02-24 17:39:30,087] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:39:30,095] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.128 seconds
+[2023-02-24 17:40:00,672] {scheduler_job.py:182} INFO - Started process (PID=490) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:40:00,675] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:40:00,677] {logging_mixin.py:104} INFO - [2023-02-24 17:40:00,677] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:40:00,971] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:40:00,987] {logging_mixin.py:104} INFO - [2023-02-24 17:40:00,986] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:40:01,078] {logging_mixin.py:104} INFO - [2023-02-24 17:40:01,078] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:40:01,086] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.480 seconds
+[2023-02-24 17:40:31,209] {scheduler_job.py:182} INFO - Started process (PID=543) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:40:31,210] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:40:31,211] {logging_mixin.py:104} INFO - [2023-02-24 17:40:31,210] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:40:31,285] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:40:31,294] {logging_mixin.py:104} INFO - [2023-02-24 17:40:31,294] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:40:31,310] {logging_mixin.py:104} INFO - [2023-02-24 17:40:31,310] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:40:31,371] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.164 seconds
+[2023-02-24 17:41:02,309] {scheduler_job.py:182} INFO - Started process (PID=606) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:41:02,310] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:41:02,311] {logging_mixin.py:104} INFO - [2023-02-24 17:41:02,311] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:41:02,341] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:41:02,349] {logging_mixin.py:104} INFO - [2023-02-24 17:41:02,349] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:41:02,363] {logging_mixin.py:104} INFO - [2023-02-24 17:41:02,363] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:41:02,371] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.065 seconds
+[2023-02-24 17:41:32,511] {scheduler_job.py:182} INFO - Started process (PID=658) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:41:32,512] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:41:32,512] {logging_mixin.py:104} INFO - [2023-02-24 17:41:32,512] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:41:32,587] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:41:32,597] {logging_mixin.py:104} INFO - [2023-02-24 17:41:32,597] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:41:32,676] {logging_mixin.py:104} INFO - [2023-02-24 17:41:32,675] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:41:32,684] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.175 seconds
+[2023-02-24 17:42:02,899] {scheduler_job.py:182} INFO - Started process (PID=710) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:42:02,899] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:42:02,900] {logging_mixin.py:104} INFO - [2023-02-24 17:42:02,900] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:42:02,930] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:42:02,938] {logging_mixin.py:104} INFO - [2023-02-24 17:42:02,938] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:42:02,972] {logging_mixin.py:104} INFO - [2023-02-24 17:42:02,971] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:42:02,979] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.082 seconds
+[2023-02-24 17:42:33,297] {scheduler_job.py:182} INFO - Started process (PID=762) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:42:33,298] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:42:33,298] {logging_mixin.py:104} INFO - [2023-02-24 17:42:33,298] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:42:33,390] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:42:33,472] {logging_mixin.py:104} INFO - [2023-02-24 17:42:33,472] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:42:33,489] {logging_mixin.py:104} INFO - [2023-02-24 17:42:33,489] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:42:33,497] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.202 seconds
+[2023-02-24 17:43:04,337] {scheduler_job.py:182} INFO - Started process (PID=823) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:43:04,338] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:43:04,339] {logging_mixin.py:104} INFO - [2023-02-24 17:43:04,338] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:43:04,396] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:43:04,464] {logging_mixin.py:104} INFO - [2023-02-24 17:43:04,464] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:43:04,481] {logging_mixin.py:104} INFO - [2023-02-24 17:43:04,481] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:43:04,488] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.154 seconds
+[2023-02-24 17:43:34,896] {scheduler_job.py:182} INFO - Started process (PID=876) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:43:34,897] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:43:34,897] {logging_mixin.py:104} INFO - [2023-02-24 17:43:34,897] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:43:34,982] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:43:34,990] {logging_mixin.py:104} INFO - [2023-02-24 17:43:34,990] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:43:35,067] {logging_mixin.py:104} INFO - [2023-02-24 17:43:35,067] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:43:35,075] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.181 seconds
+[2023-02-24 17:44:05,612] {scheduler_job.py:182} INFO - Started process (PID=928) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:44:05,613] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:44:05,613] {logging_mixin.py:104} INFO - [2023-02-24 17:44:05,613] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:44:05,647] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:44:05,665] {logging_mixin.py:104} INFO - [2023-02-24 17:44:05,665] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:44:05,690] {logging_mixin.py:104} INFO - [2023-02-24 17:44:05,690] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:44:05,710] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.101 seconds
+[2023-02-24 17:44:35,882] {scheduler_job.py:182} INFO - Started process (PID=979) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:44:35,883] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:44:35,883] {logging_mixin.py:104} INFO - [2023-02-24 17:44:35,883] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:44:36,066] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:44:36,079] {logging_mixin.py:104} INFO - [2023-02-24 17:44:36,079] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:44:36,172] {logging_mixin.py:104} INFO - [2023-02-24 17:44:36,172] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:44:36,181] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.302 seconds
+[2023-02-24 17:45:06,914] {scheduler_job.py:182} INFO - Started process (PID=1031) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:45:06,915] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:45:06,915] {logging_mixin.py:104} INFO - [2023-02-24 17:45:06,915] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:45:07,009] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:45:07,069] {logging_mixin.py:104} INFO - [2023-02-24 17:45:07,069] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:45:07,091] {logging_mixin.py:104} INFO - [2023-02-24 17:45:07,091] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:45:07,101] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.191 seconds
+[2023-02-24 17:45:37,205] {scheduler_job.py:182} INFO - Started process (PID=1083) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:45:37,206] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:45:37,207] {logging_mixin.py:104} INFO - [2023-02-24 17:45:37,207] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:45:37,371] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:45:37,383] {logging_mixin.py:104} INFO - [2023-02-24 17:45:37,383] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:45:37,467] {logging_mixin.py:104} INFO - [2023-02-24 17:45:37,466] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:45:37,476] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.274 seconds
+[2023-02-24 17:46:07,730] {scheduler_job.py:182} INFO - Started process (PID=1135) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:46:07,731] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:46:07,732] {logging_mixin.py:104} INFO - [2023-02-24 17:46:07,731] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:46:07,788] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:46:07,797] {logging_mixin.py:104} INFO - [2023-02-24 17:46:07,797] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:46:07,813] {logging_mixin.py:104} INFO - [2023-02-24 17:46:07,813] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:46:07,820] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.092 seconds
+[2023-02-24 17:46:38,605] {scheduler_job.py:182} INFO - Started process (PID=1187) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:46:38,606] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:46:38,607] {logging_mixin.py:104} INFO - [2023-02-24 17:46:38,607] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:46:38,688] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:46:38,699] {logging_mixin.py:104} INFO - [2023-02-24 17:46:38,698] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:46:38,772] {logging_mixin.py:104} INFO - [2023-02-24 17:46:38,772] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:46:38,781] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.178 seconds
+[2023-02-24 17:47:09,599] {scheduler_job.py:182} INFO - Started process (PID=1239) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:47:09,600] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:47:09,601] {logging_mixin.py:104} INFO - [2023-02-24 17:47:09,601] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:47:09,644] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:47:09,678] {logging_mixin.py:104} INFO - [2023-02-24 17:47:09,678] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:47:09,694] {logging_mixin.py:104} INFO - [2023-02-24 17:47:09,693] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:47:09,701] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.105 seconds
+[2023-02-24 17:47:39,890] {scheduler_job.py:182} INFO - Started process (PID=1291) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:47:39,891] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:47:39,892] {logging_mixin.py:104} INFO - [2023-02-24 17:47:39,891] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:47:40,080] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:47:40,171] {logging_mixin.py:104} INFO - [2023-02-24 17:47:40,171] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:47:40,186] {logging_mixin.py:104} INFO - [2023-02-24 17:47:40,186] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:47:40,270] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.384 seconds
+[2023-02-24 17:48:10,976] {scheduler_job.py:182} INFO - Started process (PID=1343) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:48:10,977] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:48:10,978] {logging_mixin.py:104} INFO - [2023-02-24 17:48:10,978] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:48:11,099] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:48:11,173] {logging_mixin.py:104} INFO - [2023-02-24 17:48:11,173] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:48:11,191] {logging_mixin.py:104} INFO - [2023-02-24 17:48:11,191] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:48:11,200] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.232 seconds
+[2023-02-24 17:48:41,475] {scheduler_job.py:182} INFO - Started process (PID=1396) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:48:41,476] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:48:41,477] {logging_mixin.py:104} INFO - [2023-02-24 17:48:41,477] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:48:41,574] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:48:41,587] {logging_mixin.py:104} INFO - [2023-02-24 17:48:41,587] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:48:41,604] {logging_mixin.py:104} INFO - [2023-02-24 17:48:41,604] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:48:41,673] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.200 seconds
+[2023-02-24 17:49:12,319] {scheduler_job.py:182} INFO - Started process (PID=1447) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:49:12,320] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:49:12,321] {logging_mixin.py:104} INFO - [2023-02-24 17:49:12,321] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:49:12,385] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:49:12,394] {logging_mixin.py:104} INFO - [2023-02-24 17:49:12,394] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:49:12,412] {logging_mixin.py:104} INFO - [2023-02-24 17:49:12,412] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:49:12,467] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.150 seconds
+[2023-02-24 17:49:42,728] {scheduler_job.py:182} INFO - Started process (PID=1499) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:49:42,730] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:49:42,730] {logging_mixin.py:104} INFO - [2023-02-24 17:49:42,730] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:49:42,808] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:49:42,873] {logging_mixin.py:104} INFO - [2023-02-24 17:49:42,873] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:49:42,892] {logging_mixin.py:104} INFO - [2023-02-24 17:49:42,891] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:49:42,901] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.175 seconds
+[2023-02-24 17:50:13,669] {scheduler_job.py:182} INFO - Started process (PID=1560) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:50:13,670] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:50:13,670] {logging_mixin.py:104} INFO - [2023-02-24 17:50:13,670] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:50:13,776] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:50:13,793] {logging_mixin.py:104} INFO - [2023-02-24 17:50:13,792] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:50:13,873] {logging_mixin.py:104} INFO - [2023-02-24 17:50:13,873] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:50:13,882] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.217 seconds
+[2023-02-24 17:50:43,924] {scheduler_job.py:182} INFO - Started process (PID=1610) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:50:43,925] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:50:43,926] {logging_mixin.py:104} INFO - [2023-02-24 17:50:43,926] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:50:43,999] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:50:44,011] {logging_mixin.py:104} INFO - [2023-02-24 17:50:44,011] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:50:44,073] {logging_mixin.py:104} INFO - [2023-02-24 17:50:44,072] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:50:44,096] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.175 seconds
+[2023-02-24 17:51:14,265] {scheduler_job.py:182} INFO - Started process (PID=1665) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:51:14,267] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:51:14,271] {logging_mixin.py:104} INFO - [2023-02-24 17:51:14,271] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:51:14,377] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:51:14,408] {logging_mixin.py:104} INFO - [2023-02-24 17:51:14,407] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:51:14,483] {logging_mixin.py:104} INFO - [2023-02-24 17:51:14,483] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:51:14,501] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.266 seconds
+[2023-02-24 17:51:44,692] {scheduler_job.py:182} INFO - Started process (PID=1716) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:51:44,693] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:51:44,694] {logging_mixin.py:104} INFO - [2023-02-24 17:51:44,694] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:51:44,964] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:51:44,977] {logging_mixin.py:104} INFO - [2023-02-24 17:51:44,977] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:51:45,070] {logging_mixin.py:104} INFO - [2023-02-24 17:51:45,070] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:51:45,083] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.393 seconds
+[2023-02-24 17:52:15,189] {scheduler_job.py:182} INFO - Started process (PID=1768) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:52:15,190] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:52:15,191] {logging_mixin.py:104} INFO - [2023-02-24 17:52:15,191] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:52:15,369] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:52:15,381] {logging_mixin.py:104} INFO - [2023-02-24 17:52:15,381] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:52:15,480] {logging_mixin.py:104} INFO - [2023-02-24 17:52:15,480] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:52:15,505] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.319 seconds
+[2023-02-24 17:52:46,044] {scheduler_job.py:182} INFO - Started process (PID=1817) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:52:46,045] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:52:46,046] {logging_mixin.py:104} INFO - [2023-02-24 17:52:46,046] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:52:46,174] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:52:46,186] {logging_mixin.py:104} INFO - [2023-02-24 17:52:46,186] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:52:46,205] {logging_mixin.py:104} INFO - [2023-02-24 17:52:46,205] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:52:46,270] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.229 seconds
+[2023-02-24 17:53:16,291] {scheduler_job.py:182} INFO - Started process (PID=1872) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:53:16,294] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:53:16,295] {logging_mixin.py:104} INFO - [2023-02-24 17:53:16,294] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:53:16,329] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:53:16,367] {logging_mixin.py:104} INFO - [2023-02-24 17:53:16,366] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:53:16,383] {logging_mixin.py:104} INFO - [2023-02-24 17:53:16,383] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:53:16,393] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.105 seconds
+[2023-02-24 17:53:46,778] {scheduler_job.py:182} INFO - Started process (PID=1924) to work on /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:53:46,780] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/dag_airbyte_dbt.py for tasks to queue
+[2023-02-24 17:53:46,780] {logging_mixin.py:104} INFO - [2023-02-24 17:53:46,780] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:53:46,886] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['trigger_airbyte_dbt_job']) retrieved from /opt/airflow/dags/dag_airbyte_dbt.py
+[2023-02-24 17:53:46,970] {logging_mixin.py:104} INFO - [2023-02-24 17:53:46,970] {dag.py:1833} INFO - Sync 1 DAGs
+[2023-02-24 17:53:46,991] {logging_mixin.py:104} INFO - [2023-02-24 17:53:46,991] {dag.py:2306} INFO - Setting next_dagrun for trigger_airbyte_dbt_job to 2023-02-24 00:00:00+00:00
+[2023-02-24 17:53:47,069] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag_airbyte_dbt.py took 0.293 seconds
